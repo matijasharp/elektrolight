@@ -1,0 +1,109 @@
+:root {
+  --bg: #070B10;
+  --surface: #0F1722;
+  --surface2: #0B1220;
+  --primary: #1FA3FF;
+  --secondary: #AEE6FF;
+  --accent: #3CF2FF;
+  --text: #EAF6FF;
+  --muted: #7F97AD;
+  --stroke: rgba(174, 230, 255, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--bg);
+  color: var(--text);
+  /* Fonts will be applied via Next.js next/font/google */
+  /* scroll-behavior: smooth removed — conflicts with GSAP ScrollTrigger scrub */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Glass/Metal Surface Utilities */
+.glass-panel {
+  background: rgba(15, 23, 34, 0.6);
+  /* --surface with opacity */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(174, 230, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* Premium gradient backgrounds */
+.gradient-bg {
+  background: radial-gradient(circle at top right, rgba(31, 163, 255, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at bottom left, rgba(60, 242, 255, 0.05) 0%, transparent 40%);
+}
+
+/* Base utility for SVG Energy Layer */
+.energy-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.energy-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.energy-node {
+  position: relative;
+  will-change: transform;
+  transform-origin: center center;
+  /* GSAP handles the pulse animation, but we define will-change for performance */
+}
+
+@media (max-width: 768px) {
+  .energy-svg {
+    width: 140vw;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #energy-glow {
+    opacity: 0.12;
+  }
+}
+
+/* General Typography settings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Button Reset */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+}

@@ -1,0 +1,121 @@
+.heroContainer {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.contentOverlay {
+    position: relative;
+    z-index: 10;
+    max-width: 900px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title {
+    font-family: var(--font-space);
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--text);
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.subtitle {
+    font-family: var(--font-inter);
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: var(--muted);
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0;
+}
+
+.ctaGroup {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.primaryCta {
+    background: var(--primary);
+    color: #fff;
+    font-family: var(--font-inter);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px rgba(31, 163, 255, 0.4);
+}
+
+.primaryCta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(31, 163, 255, 0.6);
+    background: var(--secondary);
+    color: var(--bg);
+}
+
+.secondaryCta {
+    background: transparent;
+    color: var(--text);
+    font-family: var(--font-inter);
+    font-weight: 500;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--stroke);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.secondaryCta::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--accent);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.secondaryCta:hover::after {
+    transform: translateX(0);
+}
+
+.secondaryCta:hover {
+    background: rgba(174, 230, 255, 0.05);
+}
+
+/* Static grid overlay — visible on small screens only */
+.gridOverlay {
+    display: none;
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+        linear-gradient(rgba(31, 163, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(31, 163, 255, 0.08) 1px, transparent 1px);
+    background-size: 44px 44px;
+    -webkit-mask-image: radial-gradient(ellipse 100% 55% at 50% 100%, black 20%, transparent 75%);
+    mask-image: radial-gradient(ellipse 100% 55% at 50% 100%, black 20%, transparent 75%);
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .gridOverlay {
+        display: block;
+    }
+}

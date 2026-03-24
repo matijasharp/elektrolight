@@ -1,0 +1,444 @@
+.contactSection {
+    padding: 120px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.contactSection::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at bottom center, rgba(31, 163, 255, 0.08) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.heading {
+    font-family: var(--font-space);
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.description {
+    font-family: var(--font-inter);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--muted);
+}
+
+.ctaGroup {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.primaryBtn {
+    display: inline-block;
+    background: var(--surface2);
+    border: 1px solid var(--stroke);
+    color: var(--text);
+    font-family: var(--font-inter);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.primaryBtn:hover {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+}
+
+.secondaryBtn {
+    display: inline-block;
+    background: rgba(37, 211, 102, 0.1);
+    /* subtle whatsapp color */
+    border: 1px solid rgba(37, 211, 102, 0.3);
+    color: #25D366;
+    font-family: var(--font-inter);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.secondaryBtn:hover {
+    background: #25D366;
+    color: #fff;
+}
+
+.formBox {
+    padding: 2.5rem;
+    border: 1px solid rgba(174, 230, 255, 0.1);
+}
+
+.formTitle {
+    font-family: var(--font-space);
+    font-size: 1.5rem;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.inputRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputGroup label {
+    font-family: var(--font-space);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    background: rgba(15, 23, 34, 0.8);
+    border: 1px solid rgba(174, 230, 255, 0.1);
+    color: var(--text);
+    font-family: var(--font-inter);
+    transition: all 0.3s ease;
+}
+
+.inputGroup input:focus,
+.inputGroup textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: rgba(15, 23, 34, 1);
+    box-shadow: 0 0 0 2px rgba(31, 163, 255, 0.1);
+}
+
+/* Toggle switch styles */
+.toggleGroup {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 0.5rem;
+}
+
+.urgentText {
+    font-family: var(--font-inter);
+    color: var(--text);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(174, 230, 255, 0.1);
+    transition: .4s;
+    border-radius: 24px;
+    border: 1px solid rgba(174, 230, 255, 0.2);
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 3px;
+    background-color: var(--muted);
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: rgba(255, 59, 48, 0.2);
+    border-color: rgba(255, 59, 48, 0.5);
+}
+
+input:checked+.slider:before {
+    transform: translateX(20px);
+    background-color: #ff3b30;
+}
+
+.submitBtn {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--primary);
+    color: #fff;
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submitBtn:hover {
+    background: var(--secondary);
+    color: var(--bg);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(31, 163, 255, 0.4);
+}
+
+/* Wire-arrived persistent electric state */
+.wireArrived {
+    animation: borderCharge 1.4s ease-out forwards;
+}
+
+@keyframes borderCharge {
+    0% {
+        box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+        border-color: rgba(174, 230, 255, 0.1);
+        filter: brightness(1);
+    }
+    12% {
+        box-shadow: 0 0 0 0 rgba(60, 242, 255, 0);
+        border-color: rgba(60, 242, 255, 1);
+        filter: brightness(1.8);
+    }
+    25% {
+        box-shadow: 0 0 100px 30px rgba(60, 242, 255, 0.45), 0 8px 32px rgba(0,0,0,0.4);
+        border-color: rgba(60, 242, 255, 1);
+        filter: brightness(1.5);
+    }
+    100% {
+        box-shadow: 0 0 28px 5px rgba(31, 163, 255, 0.18), 0 8px 32px rgba(0,0,0,0.4);
+        border-color: rgba(60, 242, 255, 0.5);
+        filter: brightness(1);
+    }
+}
+
+.wireArrived .submitBtn {
+    animation: buttonElectric 1.8s ease-out forwards;
+}
+
+@keyframes buttonElectric {
+    0%   { box-shadow: none; background: var(--primary); }
+    20%  { box-shadow: 0 0 50px 15px rgba(60, 242, 255, 0.7); background: var(--accent); color: var(--bg); transform: scale(1.04); }
+    60%  { box-shadow: 0 0 20px 5px rgba(60, 242, 255, 0.3); background: var(--primary); transform: scale(1); }
+    100% { box-shadow: 0 0 14px 3px rgba(31, 163, 255, 0.2); background: var(--primary); }
+}
+
+.wireArrived .inputGroup input,
+.wireArrived .inputGroup textarea {
+    animation: inputElectric 1.8s ease-out forwards;
+}
+
+@keyframes inputElectric {
+    0%   { box-shadow: none; border-color: rgba(174, 230, 255, 0.1); }
+    20%  { box-shadow: 0 0 30px 5px rgba(60, 242, 255, 0.5); border-color: rgba(60, 242, 255, 1); background: rgba(15, 23, 34, 1); }
+    60%  { box-shadow: 0 0 15px 3px rgba(60, 242, 255, 0.2); border-color: rgba(60, 242, 255, 0.6); background: rgba(15, 23, 34, 0.9); }
+    100% { box-shadow: 0 0 10px 2px rgba(31, 163, 255, 0.15); border-color: rgba(60, 242, 255, 0.4); background: rgba(15, 23, 34, 0.8); }
+}
+
+/* ─── Form submission states ─── */
+
+.fieldError {
+    font-family: var(--font-inter);
+    font-size: 0.78rem;
+    color: #ff3b30;
+    margin-top: -2px;
+}
+
+.inputError {
+    border-color: rgba(255, 59, 48, 0.55) !important;
+    box-shadow: 0 0 0 2px rgba(255, 59, 48, 0.1) !important;
+}
+
+.errorBanner {
+    font-family: var(--font-inter);
+    font-size: 0.9rem;
+    color: #ff6b6b;
+    background: rgba(255, 59, 48, 0.08);
+    border: 1px solid rgba(255, 59, 48, 0.25);
+    border-radius: 8px;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+/* Success overlay — covers formBox content */
+.successOverlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: rgba(7, 11, 16, 0.93);
+    border-radius: 12px;
+    z-index: 10;
+    animation: successFadeIn 0.45s ease-out forwards;
+    padding: 2rem;
+    text-align: center;
+}
+
+@keyframes successFadeIn {
+    from { opacity: 0; transform: scale(0.97); }
+    to   { opacity: 1; transform: scale(1); }
+}
+
+.successIcon {
+    font-size: 3rem;
+    animation: successPulse 1.2s ease-out;
+    filter: drop-shadow(0 0 20px #3CF2FF);
+}
+
+@keyframes successPulse {
+    0%   { transform: scale(0.4); opacity: 0; }
+    65%  { transform: scale(1.25); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+.successTitle {
+    font-family: var(--font-space);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-shadow: 0 0 18px rgba(60, 242, 255, 0.4);
+}
+
+.successMessage {
+    font-family: var(--font-inter);
+    font-size: 0.95rem;
+    color: var(--muted);
+    line-height: 1.6;
+    max-width: 280px;
+}
+
+/* Disabled state during submission */
+.form input:disabled,
+.form textarea:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.submitBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* ─── Phone prefix + number group ─── */
+.phoneGroup {
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid rgba(174, 230, 255, 0.1);
+    overflow: hidden;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.phoneGroup:focus-within {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(31, 163, 255, 0.1);
+}
+
+.phoneGroupError {
+    border-color: rgba(255, 59, 48, 0.55) !important;
+    box-shadow: 0 0 0 2px rgba(255, 59, 48, 0.1) !important;
+}
+
+.phonePrefix {
+    appearance: none;
+    -webkit-appearance: none;
+    background: rgba(15, 23, 34, 0.9);
+    border: none;
+    border-right: 1px solid rgba(174, 230, 255, 0.1);
+    color: var(--primary);
+    font-family: var(--font-inter);
+    font-size: 0.88rem;
+    font-weight: 600;
+    padding: 14px 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+    outline: none;
+}
+
+.phonePrefix:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.phoneInput {
+    flex: 1;
+    min-width: 0;
+    padding: 14px;
+    background: rgba(15, 23, 34, 0.8);
+    border: none;
+    color: var(--text);
+    font-family: var(--font-inter);
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+.phoneInput:focus {
+    background: rgba(15, 23, 34, 1);
+}
+
+.phoneInput:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

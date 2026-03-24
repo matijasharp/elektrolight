@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "title": "Elektro Light | Premium Electrical Services in Zagreb",
+    "description": "Premium electrical services in Zagreb — fast, clean, safe. Licensed electricians, warranty, invoice, on-time arrival."
+  },
+  "nav": {
+    "emergency": "Emergency? Call now",
+    "service24": "24/7 Service",
+    "links": {
+      "services": "Services",
+      "process": "How We Work",
+      "projects": "Projects",
+      "testimonials": "Reviews",
+      "faq": "FAQ",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "headline": "Premium electrical services in Zagreb — fast, clean, safe.",
+    "subheadline": "licensed electricians, warranty, invoice, on-time arrival",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "Call now (WhatsApp/Viber)"
+  },
+  "trust": {
+    "licensed": "Licensed",
+    "warranty": "Warranty",
+    "invoice": "Invoice",
+    "emergency": "Emergency service",
+    "area": "Zagreb & area"
+  },
+  "services": {
+    "heading": "Comprehensive Services",
+    "subheading": "Expertise for every environment.",
+    "learnMore": "Learn more",
+    "back": "Back to Services",
+    "items": [
+      {
+        "title": "Apartments & Houses",
+        "description": "Complete residential wiring, panel upgrades, and safety inspections.",
+        "longDescription": "Whether you are building a new home, renovating an apartment, or just need to fix a stubborn outlet, our residential services cover everything from the main breaker panel to the final switch. We guarantee a clean workspace and strict adherence to safety codes.",
+        "features": ["Full home rewiring (copper)", "Smart breaker panel upgrades", "Socket & switch installation", "Safety diagnostics & grounding"]
+      },
+      {
+        "title": "Business Spaces",
+        "description": "Commercial electrical systems, networking, and high-capacity power solutions.",
+        "longDescription": "We understand that downtime costs money. Our commercial team specializes in robust, scalable power grids capable of supporting heavy machinery, server rooms, and retail lighting systems without interruption.",
+        "features": ["Three-phase power installation", "Office network cabling (Cat6/Fiber)", "Emergency backup generators", "Commercial lighting & signage"]
+      },
+      {
+        "title": "Emergency Repairs",
+        "description": "24/7 fast response for power outages, short circuits, and critical failures.",
+        "longDescription": "Electrical emergencies require immediate, professional attention. Our rapid-response unit is available 24 hours a day, 7 days a week across Zagreb and the surrounding area. We prioritize safety and swift restoration of power.",
+        "features": ["24/7 rapid response unit", "Short circuit isolation", "Burnt wire replacement", "Immediate hazard neutralization"]
+      },
+      {
+        "title": "Lighting Installs",
+        "description": "Custom ambient, exterior, and energy-efficient LED lighting designs.",
+        "longDescription": "Transform your space with carefully planned illumination. We install custom lighting solutions that enhance productivity in the office, create a premium atmosphere in retail, or add warmth to your living room, all while minimizing energy costs.",
+        "features": ["Custom LED track lighting", "Outdoor & landscape illumination", "Automated diming systems", "Chandelier & fixture mounting"]
+      },
+      {
+        "title": "Smart Home Upgrades",
+        "description": "Integration of intelligent climate, security, and automated lighting controls.",
+        "longDescription": "Bring your property into the future. We integrate smart switches, automated blinds, digital thermostats, and security cameras into a single, cohesive network you can control directly from your smartphone, anywhere in the world.",
+        "features": ["Smart lighting & climate control", "Video doorbell integration", "Automated window blinds", "Voice assistant compatibility"]
+      },
+      {
+        "title": "Maintenance",
+        "description": "Preventative checkups and long-term care to prevent unexpected downtime.",
+        "longDescription": "Prevention is always cheaper than a cure. We offer comprehensive quarterly and annual maintenance contracts for residential buildings and corporate offices, ensuring every circuit operates safely within its designed limits.",
+        "features": ["Thermal imaging inspections", "Breaker load testing", "Safety compliance certification", "Priority response contracts"]
+      }
+    ]
+  },
+  "process": {
+    "heading": "Our Process",
+    "subheading": "Simple, transparent, guaranteed.",
+    "steps": [
+      {
+        "title": "Contact",
+        "description": "Reach out via Phone, WhatsApp, or our quick form. We respond within minutes."
+      },
+      {
+        "title": "Estimate",
+        "description": "We assess the situation (often via a quick video call) and provide a transparent, upfront quote."
+      },
+      {
+        "title": "Work + Warranty",
+        "description": "Fast, clean execution with premium materials. Backed by our official warranty and invoice."
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Case Studies",
+    "subheading": "Real problems, robust solutions.",
+    "problemLabel": "Problem:",
+    "solutionLabel": "Solution:",
+    "resultLabel": "Result:",
+    "challengeDetailLabel": "The Challenge:",
+    "solutionDetailLabel": "The Approach:",
+    "resultDetailLabel": "The Impact:",
+    "galleryLabel": "Project Gallery",
+    "badges": {
+      "status": "STATUS: DEPLOYED",
+      "impact": "IMPACT: VERIFIED",
+      "systems": "SYSTEMS NOMINAL"
+    },
+    "viewDetails": "View details",
+    "back": "Back to Projects",
+    "items": [
+      {
+        "title": "Historic Apartment Rewiring",
+        "problem": "Old aluminum wiring caused frequent short circuits.",
+        "solution": "Complete copper rewiring without damaging antique moldings.",
+        "result": "100% stable power with smart lighting integration.",
+        "challengeDetail": "The building, dating back to the late 19th century, presented significant safety hazards due to an outdated and degraded aluminum wiring system. The client experienced frequent power outages and voltage drops. The primary challenge was replacing the entire electrical infrastructure without causing damage to the priceless, protected antique stucco and ceiling moldings.",
+        "solutionDetail": "We deployed a specialized team trained in historical preservation. Through careful planning and non-invasive routing techniques, we mapped out a completely new copper wiring grid. We ran conduits behind existing baseboards and utilized specialized micro-channeling where necessary, preserving the architectural integrity of the space. Finally, we installed a modern, high-capacity breaker panel with surge protection.",
+        "resultDetail": "The apartment now benefits from 100% reliable and stable power distribution. We seamlessly integrated a smart lighting control system, allowing the client to manage ambiance via smartphone, blending modern convenience with historical elegance. Zero damage occurred to the historical features."
+      },
+      {
+        "title": "Retail Store Illumination",
+        "problem": "Poor lighting hurting product displays and high energy costs.",
+        "solution": "Custom LED track lighting and automated dimmers.",
+        "result": "Sales increased by 15%, energy bill dropped by 40%.",
+        "challengeDetail": "A premium retail boutique in the city center was struggling with inadequate, outdated fluorescent lighting. The harsh light washed out the vibrant colors of their merchandise, negatively affecting the customer experience and overall sales. Furthermore, the old system was highly inefficient, leading to exorbitant monthly energy bills that hurt the business's bottom line.",
+        "solutionDetail": "We completely redesigned the lighting architecture. We removed the old fixtures and installed a sleek, custom-designed LED track lighting system tailored to highlight specific product zones and architectural features. We carefully selected the color temperature and High CRI (Color Rendering Index) bulbs to make the merchandise pop. We also integrated an automated, multi-zone dimming system that adjusts brightness based on natural light levels throughout the day.",
+        "resultDetail": "The transformation was immediate. The merchandise is now beautifully illuminated, creating a premium and inviting atmosphere that directly led to a reported 15% increase in sales within the first quarter. Additionally, the highly efficient LED system, combined with smart daylight harvesting, resulted in a sustained 40% reduction in monthly lighting energy costs."
+      },
+      {
+        "title": "Office Network Overhaul",
+        "problem": "Overloaded circuits handling too many workstations.",
+        "solution": "New dedicated circuits and a secondary panel installation.",
+        "result": "Zero downtime scaling up to 50 employees.",
+        "challengeDetail": "A rapidly growing tech startup had expanded their workforce faster than their office infrastructure could support. The result was a severely overloaded main electrical panel and a chaotic, unreliable network. Circuit breakers were tripping daily under the load of too many workstations, servers, and heavy office equipment, causing frustrating workflow interruptions and risking hardware damage.",
+        "solutionDetail": "We conducted a comprehensive load analysis to understand their current and projected power needs. We installed a robust secondary distribution panel dedicated solely to the IT infrastructure and employee workstations. We ran dedicated, isolated circuits to key areas, ensuring that heavy equipment like printers or kitchen appliances would not interfere with sensitive computer equipment. We also upgraded their main networking hub.",
+        "resultDetail": "The office now operates on a highly resilient, scalable electrical foundation. Since the upgrade, they have experienced zero circuit overloads or power-related downtime. The infrastructure was designed with future growth in mind, easily supporting their scale-up to over 50 employees without requiring further fundamental changes to the power grid."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Client Trust",
+    "subheading": "Highest rated electricians in the region.",
+    "items": [
+      {
+        "name": "Marko J.",
+        "location": "Trešnjevka, Zagreb",
+        "text": "Incredibly fast response when half our house lost power. Clean work, upfront pricing, and the electrician was very professional."
+      },
+      {
+        "name": "Ana S.",
+        "location": "Maksimir, Zagreb",
+        "text": "Upgraded our entire apartment's lighting and installed a new breaker panel. The finish is flawless and the smart dimmers work perfectly."
+      },
+      {
+        "name": "Ivan K.",
+        "location": "Novi Zagreb",
+        "text": "The only company that actually showed up on time. Highly recommend for any commercial or complex residential work."
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Common Questions",
+    "subheading": "Clear answers about our services.",
+    "items": [
+      {
+        "question": "How do you calculate pricing?",
+        "answer": "We offer transparent, upfront pricing. After a brief assessment (often via video call or a quick site visit), we provide a fixed quote for the entire job. No hidden fees or surprise hourly charges."
+      },
+      {
+        "question": "Do you offer same-day emergency services?",
+        "answer": "Yes. Our emergency unit operates 24/7 across Zagreb and surrounding areas. For critical issues like total power loss, we aim to be on-site within 45 minutes."
+      },
+      {
+        "question": "Do you issue official invoices?",
+        "answer": "Absolutely. We are a registered company. Every job is completed with an officially stamped invoice and documentation for your records."
+      },
+      {
+        "question": "What kind of warranty do you provide?",
+        "answer": "We provide a 2-year warranty on all our installation labor, plus the manufacturer's warranty on any materials or fixtures we supply. If something fails due to our work, we fix it for free."
+      },
+      {
+        "question": "Do you work on weekends?",
+        "answer": "Yes, we accept scheduled project work on Saturdays by appointment, and our emergency response team is available all weekend."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Electrical emergency or new project?",
+    "description": "Get a quick estimate or request immediate assistance in Zagreb and the surrounding area.",
+    "callNow": "Call Now",
+    "whatsapp": "WhatsApp Us",
+    "formTitle": "Request a Quote",
+    "namePlaceholder": "John Doe",
+    "nameLabel": "Name",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "+385 91...",
+    "locationLabel": "Location",
+    "locationPlaceholder": "Zagreb (Maksimir)",
+    "issueLabel": "Issue / Request",
+    "issuePlaceholder": "Describe what you need...",
+    "emergency": "This is an emergency",
+    "submit": "Send Request",
+    "submitting": "Sending...",
+    "successTitle": "Request sent successfully!",
+    "successMessage": "We will contact you soon on the phone number you provided.",
+    "errorMessage": "Something went wrong. Please try again or call us directly.",
+    "nameRequired": "Full name is required",
+    "phoneRequired": "Phone number is required",
+    "locationRequired": "Location is required",
+    "issueRequired": "Issue description is required (min. 5 characters)",
+    "emailLabel": "Email",
+    "emailPlaceholder": "john@example.com",
+    "emailRequired": "Email address is required",
+    "emailInvalid": "Please enter a valid email address"
+  },
+  "footer": {
+    "description": "Premium electrical services based in Zagreb, Croatia. Professional, safe, and clean execution for residential and commercial spaces.",
+    "servicesHeading": "Services",
+    "services": ["Emergency Repairs", "Installations", "Smart Home Setup", "Maintenance"],
+    "contactHeading": "Contact",
+    "address": "Strigovačka ulica 9, Zagreb",
+    "area": "Zagreb & Surrounding Area",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "blogHeading": "Blog",
+    "blog": "Tips & Guides"
+  },
+  "about": {
+    "heading": "Powering Progress",
+    "description": "Elektro Light is Zagreb's premier electrical business, delivering cutting-edge solutions for commercial and residential spaces. We operate beyond borders, bringing precision, safety, and innovation wherever lighting and power are needed.",
+    "stats": [
+      { "label": "Years Experience" },
+      { "label": "Projects Completed" },
+      { "label": "Emergency Support" }
+    ]
+  }
+}

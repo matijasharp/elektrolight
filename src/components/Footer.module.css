@@ -1,0 +1,125 @@
+.footerContainer {
+    background: var(--surface2);
+    border-top: 1px solid var(--stroke);
+    padding: 4rem 2rem 2rem;
+    position: relative;
+    z-index: 10;
+    /* Above energy path */
+}
+
+.footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(174, 230, 255, 0.1);
+}
+
+@media (min-width: 768px) {
+    .footerContent {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+}
+
+.logoGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.logoIcon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background: transparent;
+}
+
+.logoText {
+    font-family: var(--font-space);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.description {
+    font-family: var(--font-inter);
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 300px;
+}
+
+.heading {
+    font-family: var(--font-space);
+    color: var(--text);
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.list li {
+    font-family: var(--font-inter);
+    color: var(--muted);
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.list li:hover {
+    color: var(--text);
+    cursor: pointer;
+}
+
+.listLink {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.listLink:hover {
+    color: var(--primary);
+}
+
+.bottomBar {
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-inter);
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+@media (min-width: 768px) {
+    .bottomBar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.legalLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.legalLinks a {
+    transition: color 0.2s ease;
+}
+
+.legalLinks a:hover {
+    color: var(--primary);
+}

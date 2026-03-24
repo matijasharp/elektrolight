@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "title": "Elektro Light | Premium-Elektroinstallationen in Zagreb",
+    "description": "Premium-Elektroinstallationen in Zagreb — schnell, sauber, sicher. Zugelassene Elektriker, Garantie, Rechnung, pünktliche Ankunft."
+  },
+  "nav": {
+    "emergency": "Notfall? Jetzt anrufen",
+    "service24": "24/7 Service",
+    "links": {
+      "services": "Leistungen",
+      "process": "Unsere Arbeit",
+      "projects": "Projekte",
+      "testimonials": "Bewertungen",
+      "faq": "FAQ",
+      "contact": "Kontakt"
+    }
+  },
+  "hero": {
+    "headline": "Premium-Elektroinstallationen in Zagreb — schnell, sauber, sicher.",
+    "subheadline": "zugelassene Elektriker, Garantie, Rechnung, pünktliche Ankunft",
+    "ctaPrimary": "Angebot anfordern",
+    "ctaSecondary": "Jetzt anrufen (WhatsApp/Viber)"
+  },
+  "trust": {
+    "licensed": "Zugelassen",
+    "warranty": "Garantie",
+    "invoice": "Rechnung",
+    "emergency": "Notdienst",
+    "area": "Zagreb & Umgebung"
+  },
+  "services": {
+    "heading": "Umfassende Leistungen",
+    "subheading": "Fachkompetenz für jedes Umfeld.",
+    "learnMore": "Mehr erfahren",
+    "back": "Zurück zu Leistungen",
+    "items": [
+      {
+        "title": "Wohnungen & Häuser",
+        "description": "Komplette Hausinstallation, Verteileraufrüstung und Sicherheitsinspektionen.",
+        "longDescription": "Egal ob Sie ein neues Haus bauen, eine Wohnung renovieren oder nur eine defekte Steckdose reparieren lassen müssen – unsere Dienstleistungen decken alles ab, vom Hauptverteilerkasten bis zum letzten Schalter. Wir garantieren einen sauberen Arbeitsplatz und die strikte Einhaltung der Sicherheitsvorschriften.",
+        "features": ["Komplette Hausneuverkabelung (Kupfer)", "Modernisierung von Sicherungskästen", "Installation von Steckdosen & Schaltern", "Sicherheitsdiagnostik & Erdung"]
+      },
+      {
+        "title": "Gewerberäume",
+        "description": "Gewerbliche Elektroanlagen, Netzwerke und Hochleistungsstromlösungen.",
+        "longDescription": "Wir bieten maßgeschneiderte Elektrolösungen für Unternehmen jeder Größe. Von der Installation komplexer Netzwerkinfrastrukturen bis zur Optimierung von Hochleistungsstromsystemen – wir sorgen für einen reibungslosen und effizienten Betrieb Ihres Geschäfts.",
+        "features": ["Gewerbliche Neuverkabelung", "Netzwerk- und Datenkabelinstallation", "Hochleistungsstromversorgung", "Sicherheitsbeleuchtung & Notstrom"]
+      },
+      {
+        "title": "Notfallreparaturen",
+        "description": "24/7 schnelle Reaktion bei Stromausfällen, Kurzschlüssen und kritischen Ausfällen.",
+        "longDescription": "Elektrische Notfälle erfordern sofortige, professionelle Aufmerksamkeit. Unsere Schnelleingreiftruppe ist 24 Stunden am Tag, 7 Tage die Woche in ganz Zagreb und Umgebung erreichbar. Wir legen großen Wert auf Sicherheit und die schnelle Wiederherstellung der Stromversorgung.",
+        "features": ["24/7 Schnelleinsatzgruppe", "Isolierung von Kurzschlüssen", "Austausch durchgebrannter Kabel", "Sofortige Gefahrenbeseitigung"]
+      },
+      {
+        "title": "Beleuchtungsinstallation",
+        "description": "Individuelle Ambiente-, Außen- und energieeffiziente LED-Beleuchtungslösungen.",
+        "longDescription": "Licht ist mehr als nur Helligkeit – es schafft Atmosphäre und Sicherheit. Wir planen und installieren Beleuchtungssysteme, die perfekt auf Ihre Bedürfnisse zugeschnitten sind, von stimmungsvoller Innenbeleuchtung bis hin zu robuster Außenbeleuchtung und energieeffizienten LED-Lösungen.",
+        "features": ["Innen- und Außenbeleuchtung", "LED-Umrüstung", "Intelligente Beleuchtungssteuerung", "Sicherheits- und Akzentbeleuchtung"]
+      },
+      {
+        "title": "Smart-Home-Upgrade",
+        "description": "Integration intelligenter Klima-, Sicherheits- und automatisierter Beleuchtungssteuerung.",
+        "longDescription": "Führen Sie Ihre Immobilie in die Zukunft. Wir integrieren intelligente Schalter, automatisierte Jalousien, digitale Thermostate und Überwachungskameras in ein einziges, zusammenhängendes Netzwerk, das Sie direkt und von überall aus über Ihr Smartphone steuern können.",
+        "features": ["Smarte Beleuchtung & Klimasteuerung", "Videotürklingel-Integration", "Automatisierte Jalousien", "Kompatibilität mit Sprachassistenten"]
+      },
+      {
+        "title": "Wartung",
+        "description": "Vorbeugende Inspektionen und langfristige Pflege zur Vermeidung unerwarteter Ausfälle.",
+        "longDescription": "Vorbeugung ist immer billiger als eine Reparatur. Wir bieten umfassende vierteljährliche und jährliche Wartungsverträge für Wohngebäude und Firmenbüros an und stellen sicher, dass jeder Stromkreis sicher innerhalb seiner Auslegungsgrenzen arbeitet.",
+        "features": ["Wärmebildinspektionen", "Belastungstest von Schutzschaltern", "Sicherheitskonformitätsprüfung", "Verträge mit priorisierter Reaktionszeit"]
+      }
+    ]
+  },
+  "process": {
+    "heading": "Unser Ablauf",
+    "subheading": "Einfach, transparent, garantiert.",
+    "steps": [
+      {
+        "title": "Kontakt",
+        "description": "Melden Sie sich per Telefon, WhatsApp oder unserem Schnellformular. Wir antworten innerhalb weniger Minuten."
+      },
+      {
+        "title": "Kostenvoranschlag",
+        "description": "Wir beurteilen die Situation (oft per Videoanruf) und erstellen ein transparentes Festpreisangebot."
+      },
+      {
+        "title": "Arbeit + Garantie",
+        "description": "Schnelle, saubere Ausführung mit hochwertigen Materialien. Abgesichert durch unsere offizielle Garantie und Rechnung."
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Fallstudien",
+    "subheading": "Echte Probleme, robuste Lösungen.",
+    "problemLabel": "Problem:",
+    "solutionLabel": "Lösung:",
+    "resultLabel": "Ergebnis:",
+    "challengeDetailLabel": "Die Herausforderung:",
+    "solutionDetailLabel": "Der Ansatz:",
+    "resultDetailLabel": "Die Auswirkung:",
+    "galleryLabel": "Projektgalerie",
+    "badges": {
+      "status": "STATUS: BEREITGESTELLT",
+      "impact": "AUSWIRKUNG: ÜBERPRÜFT",
+      "systems": "SYSTEME NOMINAL"
+    },
+    "viewDetails": "Details ansehen",
+    "back": "Zurück zu Projekten",
+    "items": [
+      {
+        "title": "Neuverkabelung einer Altbauwohnung",
+        "problem": "Alte Aluminiumverkabelung verursachte häufige Kurzschlüsse.",
+        "solution": "Komplette Kupferneuverkabelung ohne Beschädigung der antiken Stuckelemente.",
+        "result": "100% stabile Stromversorgung mit Smart-Lighting-Integration.",
+        "challengeDetail": "Das Gebäude, das aus dem späten 19. Jahrhundert stammt, wies aufgrund einer veralteten und abgenutzten Aluminiumverkabelung erhebliche Sicherheitsrisiken auf. Der Kunde erlebte häufige Stromausfälle und Spannungsabfälle. Die größte Herausforderung bestand darin, die gesamte elektrische Infrastruktur auszutauschen, ohne die unbezahlbaren, denkmalgeschützten antiken Stuckverzierungen an Wänden und Decken zu beschädigen.",
+        "solutionDetail": "Wir setzten ein spezialisiertes Team ein, das für Arbeiten in historischen Gebäuden ausgebildet ist. Durch sorgfältige Planung und nicht-invasive Verlegetechniken haben wir ein komplett neues Kupferkabelnetz entworfen. Wir verlegten Kabel hinter bestehenden Fußleisten und nutzten spezielle Mikrokanäle, wo es nötig war, um die architektonische Integrität des Raumes zu erhalten. Schließlich installierten wir einen modernen Hochleistungsverteiler mit Überspannungsschutz.",
+        "resultDetail": "Die Wohnung profitiert nun von einer 100% zuverlässigen und stabilen Stromverteilung. Wir haben nahtlos ein intelligentes Lichtsteuerungssystem integriert, das es dem Kunden ermöglicht, das Ambiente über das Smartphone zu steuern und so modernen Komfort mit historischer Eleganz zu verbinden. An den historischen Elementen entstand absolut kein Schaden."
+      },
+      {
+        "title": "Beleuchtung im Einzelhandel",
+        "problem": "Schlechte Beleuchtung beeinträchtigte die Produktpräsentation und verursachte hohe Energiekosten.",
+        "solution": "Individuelle LED-Schienensysteme und automatisierte Dimmer.",
+        "result": "Umsatz um 15% gestiegen, Stromrechnung um 40% gesunken.",
+        "challengeDetail": "Eine Premium-Boutique im Stadtzentrum hatte mit unzureichender, veralteter Leuchtstoffbeleuchtung zu kämpfen. Das grelle Licht ließ die lebendigen Farben ihrer Waren verblassen, was sich negativ auf das Kundenerlebnis und den Gesamtumsatz auswirkte. Darüber hinaus war das alte System sehr ineffizient und führte zu extrem hohen monatlichen Stromrechnungen, die dem Geschäft schadeten.",
+        "solutionDetail": "Wir haben die Beleuchtungsarchitektur komplett neu gestaltet. Wir entfernten die alten Leuchten und installierten ein elegantes, maßgeschneidertes LED-Schienenbeleuchtungssystem, das entwickelt wurde, um bestimmte Produktbereiche und architektonische Merkmale hervorzuheben. Wir haben die Farbtemperatur und LED-Lampen mit hohem CRI (Farbwiedergabeindex) sorgfältig ausgewählt, um die Ware zur Geltung zu bringen. Außerdem haben wir ein automatisiertes Mehrzonen-Dimmsystem integriert, das die Helligkeit basierend auf dem Tageslichtpegel anpasst.",
+        "resultDetail": "Die Veränderung war sofort spürbar. Die Waren sind nun wunderschön beleuchtet und schaffen eine erstklassige und einladende Atmosphäre, die direkt zu einer gemeldeten Umsatzsteigerung von 15 % im ersten Quartal führte. Darüber hinaus führte das hocheffiziente LED-System in Kombination mit smarter Tageslichtnutzung zu einer nachhaltigen Reduzierung der monatlichen Beleuchtungskosten um 40 %."
+      },
+      {
+        "title": "Büronetzwerk-Erneuerung",
+        "problem": "Überlastete Stromkreise für zu viele Arbeitsplätze.",
+        "solution": "Neue dedizierte Stromkreise und Installation eines Sekundärverteilers.",
+        "result": "Null Ausfallzeit bei Skalierung auf 50 Mitarbeiter.",
+        "challengeDetail": "Ein schnell wachsendes Tech-Startup hatte seine Belegschaft schneller vergrößert, als seine Büroinfrastruktur bewältigen konnte. Das Ergebnis war ein stark überlasteter Hauptschaltschrank und ein chaotisches, unzuverlässiges Netzwerk. Die Schutzschalter lösten unter der Last zu vieler Arbeitsplätze, Server und schwerer Bürogeräte täglich aus, was frustrierende Arbeitsunterbrechungen verursachte und Hardwareschäden riskierte.",
+        "solutionDetail": "Wir führten eine umfassende Lastanalyse durch, um ihren aktuellen und prognostizierten Strombedarf zu ermitteln. Wir installierten einen robusten sekundären Verteilerkasten, der ausschließlich der IT-Infrastruktur und den Arbeitsplätzen der Mitarbeiter gewidmet ist. Wir verlegten dedizierte, isolierte Stromkreise zu Schlüsselbereichen, um sicherzustellen, dass schwere Geräte wie Drucker oder Küchengeräte empfindliche Computerausrüstung nicht stören. Wir haben auch ihren Hauptnetzwerk-Hub aufgerüstet.",
+        "resultDetail": "Das Büro arbeitet nun auf einem äußerst belastbaren, skalierbaren elektrischen Fundament. Seit dem Upgrade haben sie null Stromkreisüberlastungen oder strombedingte Ausfallzeiten erlebt. Die Infrastruktur wurde für zukünftiges Wachstum konzipiert und unterstützt problemlos die Skalierung auf über 50 Mitarbeiter, ohne dass weitere grundlegende Änderungen am Stromnetz erforderlich sind."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Kundenvertrauen",
+    "subheading": "Die am besten bewerteten Elektriker der Region.",
+    "items": [
+      {
+        "name": "Marko J.",
+        "location": "Trešnjevka, Zagreb",
+        "text": "Unglaublich schnelle Reaktion, als die Hälfte unseres Hauses den Strom verlor. Saubere Arbeit, transparente Preise und der Elektriker war sehr professionell."
+      },
+      {
+        "name": "Ana S.",
+        "location": "Maksimir, Zagreb",
+        "text": "Die gesamte Beleuchtung unserer Wohnung wurde erneuert und ein neuer Sicherungskasten eingebaut. Das Ergebnis ist makellos und die Smart-Dimmer funktionieren perfekt."
+      },
+      {
+        "name": "Ivan K.",
+        "location": "Novi Zagreb",
+        "text": "Das einzige Unternehmen, das tatsächlich pünktlich erschienen ist. Sehr empfehlenswert für alle gewerblichen oder komplexen Wohnarbeiten."
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "subheading": "Klare Antworten zu unseren Leistungen.",
+    "items": [
+      {
+        "question": "Wie berechnen Sie den Preis?",
+        "answer": "Wir bieten transparente Festpreise. Nach einer kurzen Begutachtung (oft per Videoanruf oder einem schnellen Vororttermin) erstellen wir ein Festpreisangebot für den gesamten Auftrag. Keine versteckten Kosten oder überraschende Stundenabrechnung."
+      },
+      {
+        "question": "Bieten Sie Notfallservice am gleichen Tag an?",
+        "answer": "Ja. Unsere Notfalleinheit ist 24/7 in Zagreb und Umgebung aktiv. Bei kritischen Problemen wie totalem Stromausfall sind wir innerhalb von 45 Minuten vor Ort."
+      },
+      {
+        "question": "Stellen Sie offizielle Rechnungen aus?",
+        "answer": "Selbstverständlich. Wir sind ein eingetragenes Unternehmen. Jeder Auftrag wird mit einer offiziell gestempelten Rechnung und Dokumentation für Ihre Unterlagen abgeschlossen."
+      },
+      {
+        "question": "Welche Garantie bieten Sie?",
+        "answer": "Wir gewähren 2 Jahre Garantie auf alle Installationsarbeiten sowie die Herstellergarantie auf alle von uns gelieferten Materialien und Leuchten. Wenn etwas durch unsere Arbeit ausfällt, beheben wir es kostenlos."
+      },
+      {
+        "question": "Arbeiten Sie am Wochenende?",
+        "answer": "Ja, wir nehmen samstags geplante Projekte nach Vereinbarung an, und unser Notfallteam ist das gesamte Wochenende verfügbar."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Elektrischer Notfall oder neues Projekt?",
+    "description": "Erhalten Sie schnell einen Kostenvoranschlag oder fordern Sie sofortige Hilfe in Zagreb und Umgebung an.",
+    "callNow": "Jetzt anrufen",
+    "whatsapp": "WhatsApp",
+    "formTitle": "Angebot anfordern",
+    "namePlaceholder": "Max Mustermann",
+    "nameLabel": "Name",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "+385 91...",
+    "locationLabel": "Standort",
+    "locationPlaceholder": "Zagreb (Maksimir)",
+    "issueLabel": "Problem / Anfrage",
+    "issuePlaceholder": "Beschreiben Sie Ihr Anliegen...",
+    "emergency": "Dies ist ein Notfall",
+    "submit": "Anfrage senden",
+    "submitting": "Wird gesendet...",
+    "successTitle": "Anfrage erfolgreich gesendet!",
+    "successMessage": "Wir werden Sie bald unter der angegebenen Telefonnummer kontaktieren.",
+    "errorMessage": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an.",
+    "nameRequired": "Name ist erforderlich",
+    "phoneRequired": "Telefonnummer ist erforderlich",
+    "locationRequired": "Standort ist erforderlich",
+    "issueRequired": "Problembeschreibung ist erforderlich (min. 5 Zeichen)",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "max@beispiel.de",
+    "emailRequired": "E-Mail-Adresse ist erforderlich",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+  },
+  "footer": {
+    "description": "Premium-Elektroinstallationen mit Sitz in Zagreb, Kroatien. Professionelle, sichere und saubere Ausführung für Wohn- und Gewerberäume.",
+    "servicesHeading": "Leistungen",
+    "services": ["Notfallreparaturen", "Installationen", "Smart-Home-Einrichtung", "Wartung"],
+    "contactHeading": "Kontakt",
+    "address": "Strigovačka ulica 9, Zagreb",
+    "area": "Zagreb & Umgebung",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "blogHeading": "Blog",
+    "blog": "Tipps & Anleitungen"
+  },
+  "about": {
+    "heading": "Fortschritt antreiben",
+    "description": "Elektro Light ist Zagrebs führendes Elektrounternehmen und liefert modernste Lösungen für Gewerbe- und Wohnräume. Wir arbeiten grenzenlos und bringen Präzision, Sicherheit und Innovation dorthin, wo Strom und Licht gebraucht werden.",
+    "stats": [
+      { "label": "Jahre Erfahrung" },
+      { "label": "Abgeschlossene Projekte" },
+      { "label": "Notfall-Support" }
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+.glowContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+    /* Keep it behind text and cards */
+}
+
+/* Mouse Interactive Hero Variant */
+.heroVariant .mouseOrb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle at center, rgba(31, 163, 255, 0.15) 0%, rgba(60, 242, 255, 0.05) 40%, transparent 70%);
+    border-radius: 50%;
+    transform: translate(calc(var(--mouse-x, -100vw) - 300px), calc(var(--mouse-y, -100vh) - 300px));
+    will-change: transform;
+    transition: transform 0.1s ease-out;
+    filter: blur(40px);
+}
+
+.heroVariant .baseOrb {
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgba(31, 163, 255, 0.2) 0%, transparent 60%);
+    filter: blur(60px);
+    border-radius: 50%;
+}
+
+.gridLayer {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    background-image:
+        linear-gradient(to right, rgba(31, 163, 255, 0.5) 1.5px, transparent 1.5px),
+        linear-gradient(to bottom, rgba(31, 163, 255, 0.5) 1.5px, transparent 1.5px);
+    background-size: 50px 50px;
+    background-position: 0 0;
+    -webkit-mask-image: radial-gradient(circle 600px at var(--mouse-x, -1000px) var(--mouse-y, -1000px),
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0.5) 40%,
+            rgba(0, 0, 0, 0) 100%);
+    mask-image: radial-gradient(circle 600px at var(--mouse-x, -1000px) var(--mouse-y, -1000px),
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0.5) 40%,
+            rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.isActive .gridLayer {
+    opacity: 1;
+}
+
+.glowPoints {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    background-image: radial-gradient(circle 4px at 0 0, rgba(60, 242, 255, 1) 0%, rgba(31, 163, 255, 0.8) 40%, transparent 100%);
+    background-size: 50px 50px;
+    background-position: 0 0;
+    -webkit-mask-image: radial-gradient(circle 500px at var(--mouse-x, -1000px) var(--mouse-y, -1000px),
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0) 100%);
+    mask-image: radial-gradient(circle 500px at var(--mouse-x, -1000px) var(--mouse-y, -1000px),
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.isActive .glowPoints {
+    opacity: 1;
+    animation: gridFlicker 3s infinite;
+}
+
+@keyframes gridFlicker {
+
+    0%,
+    100% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    52% {
+        opacity: 0.7;
+    }
+
+    54% {
+        opacity: 1;
+    }
+}
+
+.electrified .gridLayer,
+.electrified .glowPoints {
+    animation: gridFlash 3s ease-out forwards;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+}
+
+@keyframes gridFlash {
+    0% {
+        opacity: 0;
+        filter: brightness(0) blur(8px);
+    }
+
+    8% {
+        opacity: 1;
+        filter: brightness(2.5) blur(0px);
+    }
+
+    22% {
+        opacity: 0.5;
+        filter: brightness(1.2);
+    }
+
+    100% {
+        opacity: 0;
+        filter: brightness(1);
+    }
+}
+
+/* Static Variants */
+.primaryOrb,
+.secondaryOrb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.6;
+    mix-blend-mode: screen;
+}
+
+/* Top Right Variant */
+.topRightVariant .primaryOrb {
+    top: -20%;
+    right: -10%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(31, 163, 255, 0.12) 0%, transparent 70%);
+    animation: float1 15s ease-in-out infinite alternate;
+}
+
+.topRightVariant .secondaryOrb {
+    top: 10%;
+    right: 20%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(60, 242, 255, 0.08) 0%, transparent 70%);
+    animation: float2 20s ease-in-out infinite alternate-reverse;
+}
+
+/* Bottom Left Variant */
+.bottomLeftVariant .primaryOrb {
+    bottom: -20%;
+    left: -10%;
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(31, 163, 255, 0.12) 0%, transparent 70%);
+    animation: float2 18s ease-in-out infinite alternate;
+}
+
+.bottomLeftVariant .secondaryOrb {
+    bottom: 10%;
+    left: 15%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(60, 242, 255, 0.08) 0%, transparent 70%);
+    animation: float1 22s ease-in-out infinite alternate;
+}
+
+/* Center Slow Pulse Variant for massive sections */
+.centerVariant .primaryOrb {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 1000px;
+    background: radial-gradient(circle, rgba(31, 163, 255, 0.08) 0%, transparent 60%);
+    animation: pulseGlow 10s ease-in-out infinite alternate;
+}
+
+.centerVariant .secondaryOrb {
+    display: none;
+}
+
+/* Animations */
+@keyframes float1 {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(30px, -50px) scale(1.1);
+    }
+
+    66% {
+        transform: translate(-20px, 20px) scale(0.9);
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+@keyframes float2 {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(-40px, 30px) scale(0.95);
+    }
+
+    66% {
+        transform: translate(20px, -20px) scale(1.05);
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+@keyframes pulseGlow {
+    0% {
+        transform: translate(-50%, -50%) scale(0.9);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0.8;
+    }
+}

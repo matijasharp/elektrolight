@@ -1,0 +1,139 @@
+.projectsSection {
+    padding: 120px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.heading {
+    font-family: var(--font-space);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 10px;
+    letter-spacing: -0.02em;
+}
+
+.subheading {
+    font-family: var(--font-inter);
+    font-size: 1.1rem;
+    color: var(--muted);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.imageContainer {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.card:hover .image {
+    transform: scale(1.05);
+}
+
+.imageOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(15, 23, 34, 1), transparent);
+}
+
+.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+}
+
+.title {
+    font-family: var(--font-space);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.details p {
+    font-family: var(--font-inter);
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.details strong {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.result {
+    margin-top: 5px;
+    padding-top: 15px;
+    border-top: 1px dashed rgba(174, 230, 255, 0.2);
+}
+
+.result strong {
+    color: var(--accent);
+}
+
+.viewBtn {
+    margin-top: auto;
+    font-family: var(--font-inter);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary);
+    font-weight: 500;
+    padding-top: 20px;
+    transition: color 0.3s ease;
+}
+
+.viewBtn svg {
+    transition: transform 0.3s ease;
+}
+
+.viewBtn:hover {
+    color: var(--accent);
+}
+
+.viewBtn:hover svg {
+    transform: translateX(4px);
+}
