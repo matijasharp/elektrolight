@@ -17,12 +17,12 @@ gsap.registerPlugin(ScrollTrigger);
 const icons = [Home, Briefcase, Wrench, Lightbulb, Smartphone, Settings];
 
 const serviceHeroImages = [
-    "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=1200", // Apartments
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200", // Business
-    "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80&w=1200", // Emergency
-    "https://images.unsplash.com/photo-1563810087195-2acfeecad010?auto=format&fit=crop&q=80&w=1200", // Lighting
-    "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=1200", // Smart Home
-    "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200", // Maintenance
+    "/assets/services/elektrolight-elektricarske-usluge-stanovi-i-kuce.jpg",
+    "/assets/services/elektrolight-elektricarske-usluge-poslovni-prostori.jpg",
+    "/assets/services/elektrolight-elektricarske-usluge-hitni-popravci.jpg",
+    "/assets/services/elektrolight-elektricarske-usluge-montaza-rasvjete.jpg",
+    "/assets/services/elektrolight-elektricarske-usluge-pametna-kuca.jpg",
+    "/assets/services/elektrolight-elektricarske-usluge-odrzavanje.jpg",
 ];
 
 export default function ServiceDetailsClient({ serviceId }: { serviceId: number }) {

@@ -26,6 +26,9 @@ yarn-error.log*
 .env*.local
 .env
 
+# Google service account key
+elektrolight-f95dab72d695.json
+
 # vercel
 .vercel
 

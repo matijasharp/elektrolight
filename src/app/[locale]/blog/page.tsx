@@ -3,8 +3,11 @@ import type { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { blogPosts } from "@/data/blog";
+import { fetchBlogPosts } from "@/lib/googleSheets";
 import BlogGrid from "./BlogGrid";
 import styles from "./Blog.module.css";
+
+export const revalidate = 60;
 
 type Locale = "hr" | "en" | "de";
 
@@ -58,7 +61,10 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
     const l = (locale as Locale) ?? "hr";
     const meta = pageMeta[l];
 
-    const sortedPosts = [...blogPosts].sort(
+    const sheetsPosts = await fetchBlogPosts();
+    const displayPosts = sheetsPosts.length > 0 ? sheetsPosts : blogPosts;
+
+    const sortedPosts = [...displayPosts].sort(
         (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     );
 

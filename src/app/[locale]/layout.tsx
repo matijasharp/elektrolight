@@ -24,10 +24,15 @@ export async function generateMetadata({
 }): Promise<Metadata> {
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: "meta" });
-    return {
-        title: t("title"),
-        description: t("description"),
-    };
+     return {
+         title: t("title"),
+         description: t("description"),
+         icons: {
+             icon: "/elektrolight transparent logo.png",
+             shortcut: "/elektrolight transparent logo.png",
+             apple: "/elektrolight transparent logo.png",
+         },
+     };
 }
 
 export function generateStaticParams() {

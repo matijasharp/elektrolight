@@ -38,37 +38,67 @@
         "title": "Wohnungen & Häuser",
         "description": "Komplette Hausinstallation, Verteileraufrüstung und Sicherheitsinspektionen.",
         "longDescription": "Egal ob Sie ein neues Haus bauen, eine Wohnung renovieren oder nur eine defekte Steckdose reparieren lassen müssen – unsere Dienstleistungen decken alles ab, vom Hauptverteilerkasten bis zum letzten Schalter. Wir garantieren einen sauberen Arbeitsplatz und die strikte Einhaltung der Sicherheitsvorschriften.",
-        "features": ["Komplette Hausneuverkabelung (Kupfer)", "Modernisierung von Sicherungskästen", "Installation von Steckdosen & Schaltern", "Sicherheitsdiagnostik & Erdung"]
+        "features": [
+          "Komplette Hausneuverkabelung (Kupfer)",
+          "Modernisierung von Sicherungskästen",
+          "Installation von Steckdosen & Schaltern",
+          "Sicherheitsdiagnostik & Erdung"
+        ]
       },
       {
         "title": "Gewerberäume",
         "description": "Gewerbliche Elektroanlagen, Netzwerke und Hochleistungsstromlösungen.",
         "longDescription": "Wir bieten maßgeschneiderte Elektrolösungen für Unternehmen jeder Größe. Von der Installation komplexer Netzwerkinfrastrukturen bis zur Optimierung von Hochleistungsstromsystemen – wir sorgen für einen reibungslosen und effizienten Betrieb Ihres Geschäfts.",
-        "features": ["Gewerbliche Neuverkabelung", "Netzwerk- und Datenkabelinstallation", "Hochleistungsstromversorgung", "Sicherheitsbeleuchtung & Notstrom"]
+        "features": [
+          "Gewerbliche Neuverkabelung",
+          "Netzwerk- und Datenkabelinstallation",
+          "Hochleistungsstromversorgung",
+          "Sicherheitsbeleuchtung & Notstrom"
+        ]
       },
       {
         "title": "Notfallreparaturen",
         "description": "24/7 schnelle Reaktion bei Stromausfällen, Kurzschlüssen und kritischen Ausfällen.",
         "longDescription": "Elektrische Notfälle erfordern sofortige, professionelle Aufmerksamkeit. Unsere Schnelleingreiftruppe ist 24 Stunden am Tag, 7 Tage die Woche in ganz Zagreb und Umgebung erreichbar. Wir legen großen Wert auf Sicherheit und die schnelle Wiederherstellung der Stromversorgung.",
-        "features": ["24/7 Schnelleinsatzgruppe", "Isolierung von Kurzschlüssen", "Austausch durchgebrannter Kabel", "Sofortige Gefahrenbeseitigung"]
+        "features": [
+          "24/7 Schnelleinsatzgruppe",
+          "Isolierung von Kurzschlüssen",
+          "Austausch durchgebrannter Kabel",
+          "Sofortige Gefahrenbeseitigung"
+        ]
       },
       {
         "title": "Beleuchtungsinstallation",
         "description": "Individuelle Ambiente-, Außen- und energieeffiziente LED-Beleuchtungslösungen.",
         "longDescription": "Licht ist mehr als nur Helligkeit – es schafft Atmosphäre und Sicherheit. Wir planen und installieren Beleuchtungssysteme, die perfekt auf Ihre Bedürfnisse zugeschnitten sind, von stimmungsvoller Innenbeleuchtung bis hin zu robuster Außenbeleuchtung und energieeffizienten LED-Lösungen.",
-        "features": ["Innen- und Außenbeleuchtung", "LED-Umrüstung", "Intelligente Beleuchtungssteuerung", "Sicherheits- und Akzentbeleuchtung"]
+        "features": [
+          "Innen- und Außenbeleuchtung",
+          "LED-Umrüstung",
+          "Intelligente Beleuchtungssteuerung",
+          "Sicherheits- und Akzentbeleuchtung"
+        ]
       },
       {
         "title": "Smart-Home-Upgrade",
         "description": "Integration intelligenter Klima-, Sicherheits- und automatisierter Beleuchtungssteuerung.",
         "longDescription": "Führen Sie Ihre Immobilie in die Zukunft. Wir integrieren intelligente Schalter, automatisierte Jalousien, digitale Thermostate und Überwachungskameras in ein einziges, zusammenhängendes Netzwerk, das Sie direkt und von überall aus über Ihr Smartphone steuern können.",
-        "features": ["Smarte Beleuchtung & Klimasteuerung", "Videotürklingel-Integration", "Automatisierte Jalousien", "Kompatibilität mit Sprachassistenten"]
+        "features": [
+          "Smarte Beleuchtung & Klimasteuerung",
+          "Videotürklingel-Integration",
+          "Automatisierte Jalousien",
+          "Kompatibilität mit Sprachassistenten"
+        ]
       },
       {
         "title": "Wartung",
         "description": "Vorbeugende Inspektionen und langfristige Pflege zur Vermeidung unerwarteter Ausfälle.",
         "longDescription": "Vorbeugung ist immer billiger als eine Reparatur. Wir bieten umfassende vierteljährliche und jährliche Wartungsverträge für Wohngebäude und Firmenbüros an und stellen sicher, dass jeder Stromkreis sicher innerhalb seiner Auslegungsgrenzen arbeitet.",
-        "features": ["Wärmebildinspektionen", "Belastungstest von Schutzschaltern", "Sicherheitskonformitätsprüfung", "Verträge mit priorisierter Reaktionszeit"]
+        "features": [
+          "Wärmebildinspektionen",
+          "Belastungstest von Schutzschaltern",
+          "Sicherheitskonformitätsprüfung",
+          "Verträge mit priorisierter Reaktionszeit"
+        ]
       }
     ]
   },
@@ -216,7 +246,12 @@
   "footer": {
     "description": "Premium-Elektroinstallationen mit Sitz in Zagreb, Kroatien. Professionelle, sichere und saubere Ausführung für Wohn- und Gewerberäume.",
     "servicesHeading": "Leistungen",
-    "services": ["Notfallreparaturen", "Installationen", "Smart-Home-Einrichtung", "Wartung"],
+    "services": [
+      "Notfallreparaturen",
+      "Installationen",
+      "Smart-Home-Einrichtung",
+      "Wartung"
+    ],
     "contactHeading": "Kontakt",
     "address": "Strigovačka ulica 9, Zagreb",
     "area": "Zagreb & Umgebung",
@@ -230,9 +265,15 @@
     "heading": "Fortschritt antreiben",
     "description": "Elektro Light ist Zagrebs führendes Elektrounternehmen und liefert modernste Lösungen für Gewerbe- und Wohnräume. Wir arbeiten grenzenlos und bringen Präzision, Sicherheit und Innovation dorthin, wo Strom und Licht gebraucht werden.",
     "stats": [
-      { "label": "Jahre Erfahrung" },
-      { "label": "Abgeschlossene Projekte" },
-      { "label": "Notfall-Support" }
+      {
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "label": "Abgeschlossene Projekte"
+      },
+      {
+        "label": "Notfall-Support"
+      }
     ]
   }
 }

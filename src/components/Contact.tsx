@@ -138,7 +138,7 @@ export default function Contact() {
         <section
             id="contact"
             ref={containerRef}
-            className={`${styles.contactSection} energy-node energy-terminal`}
+            className={styles.contactSection}
             style={{ position: "relative", overflow: "hidden" }}
         >
             <AmbientGlow variant="top-right" />

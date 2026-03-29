@@ -15,27 +15,27 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const projectImages = [
-    "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&q=80&w=1200",
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+    "/assets/projects/elektrolight-obnova-stana-u-staroj-gradskoj-jezgri.png",
+    "/assets/projects/elektrolight-prodajni-salon-elektricarski-radovi.png",
+    "/assets/projects/elektrolight-it-office-project.png",
 ];
 
 // Add unique gallery image arrays per project
 const projectGalleryImages = [
     [ // Historic Apartment
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&q=80&w=800"
+        "/assets/projects/elektrolight-obnova-stana-u-staroj-gradskoj-jezgri (3).png",
+        "/assets/projects/elektrolight-obnova-stana-u-staroj-gradskoj-jezgri kamin.png",
+        "/assets/projects/elektrolight-obnova-stana-u-staroj-gradskoj-jezgri-spavaća.png"
     ],
     [ // Retail Store
-        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1553456558-aff63285aaa1?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&q=80&w=800"
+        "/assets/projects/elektrolight-prodajni-salon-projekt.png",
+        "/assets/projects/elektrolight-projekt-prodajni-salon.png",
+        "/assets/projects/elektroligt-elektricarski-radovi-prodajni-salon.png"
     ],
     [ // Office Network
-        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800"
+        "/assets/projects/elektrolight-it-project-elektricarski-radovi.png",
+        "/assets/projects/elektrolight-it-project.png",
+        "/assets/projects/elektrolight-it-tehnicka-soba.png"
     ]
 ];
 

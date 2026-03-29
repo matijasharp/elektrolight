@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Elektro Light | Vrhunske elektroinstalaterske usluge u Zagrebu",
-    "description": "Vrhunske elektroinstalaterske usluge u Zagrebu — brzi, stručni i pouzdani. Licencirani električari, jamstvo, račun i dolazak na vrijeme."
+    "title": "Elektro Light | Vrhunske električarske usluge u Zagrebu",
+    "description": "Vrhunske električarske usluge u Zagrebu — brzi, stručni i pouzdani. Licencirani električari, jamstvo, račun i dolazak na vrijeme."
   },
   "nav": {
     "emergency": "Hitna intervencija? Nazovite odmah",
@@ -16,7 +16,7 @@
     }
   },
   "hero": {
-    "headline": "Vrhunske elektroinstalaterske usluge u Zagrebu — brzi, stručni i sigurni.",
+    "headline": "Vrhunske električarske usluge u Zagrebu — brzo, stručno i sigurno.",
     "subheadline": "licencirani električari, jamstvo, račun, dolazak na vrijeme",
     "ctaPrimary": "Zatražite ponudu",
     "ctaSecondary": "Nazovite nas (WhatsApp/Viber)"
@@ -38,37 +38,67 @@
         "title": "Stanovi i kuće",
         "description": "Kompletne električne instalacije u kućanstvima, zamjena razvodnih ormara i sigurnosni pregledi.",
         "longDescription": "Bilo da gradite novu kuću, adaptirate stan ili samo trebate zamjenu utičnice, naše usluge pokrivaju sve – od glavnog razvodnog ormara do zadnjeg prekidača. Jamčimo uredan rad i strogo pridržavanje sigurnosnih standarda.",
-        "features": ["Potpuna zamjena instalacija (bakar)", "Ugradnja modernih razvodnih ormara", "Montaža utičnica i prekidača", "Sigurnosna dijagnostika i uzemljenje"]
+        "features": [
+          "Potpuna zamjena instalacija (bakar)",
+          "Ugradnja modernih razvodnih ormara",
+          "Montaža utičnica i prekidača",
+          "Sigurnosna dijagnostika i uzemljenje"
+        ]
       },
       {
         "title": "Poslovni prostori",
         "description": "Komercijalni električni sustavi, umrežavanje i rješenja za napajanje velikog kapaciteta.",
         "longDescription": "Razumijemo da zastoj u poslovanju košta. Naš tim specijaliziran je za robusne i skalabilne električne mreže sposobne podržati tešku mehanizaciju, serverske sobe i komercijalnu rasvjetu bez prekida.",
-        "features": ["Trofazni priključci i instalacije", "Uredsko umrežavanje (Cat6/Optika)", "Sustavi za besprekidno napajanje (UPS)", "Komercijalna i industrijska rasvjeta"]
+        "features": [
+          "Trofazni priključci i instalacije",
+          "Uredsko umrežavanje (Cat6/Optika)",
+          "Sustavi za besprekidno napajanje (UPS)",
+          "Komercijalna i industrijska rasvjeta"
+        ]
       },
       {
         "title": "Hitni popravci",
         "description": "Brzi dolazak 24/7 u slučaju nestanka struje, kratkih spojeva i ostalih hitnih kvarova.",
         "longDescription": "Električni kvarovi zahtijevaju hitnu i stručnu reakciju. Naš tim za hitne intervencije dostupan je 24 sata dnevno, 7 dana u tjednu na području Zagreba i okolice. Prioritet nam je vaša sigurnost i brza uspostava napajanja.",
-        "features": ["Hitne intervencije 0-24h", "Izolacija kratkih spojeva", "Zamjena izgorjelih instalacija", "Hitno otklanjanje opasnosti"]
+        "features": [
+          "Hitne intervencije 0-24h",
+          "Izolacija kratkih spojeva",
+          "Zamjena izgorjelih instalacija",
+          "Hitno otklanjanje opasnosti"
+        ]
       },
       {
         "title": "Montaža rasvjete",
         "description": "Dizajn i ugradnja ambijentalne, vanjske i energetski učinkovite LED rasvjete.",
         "longDescription": "Transformirajte svoj prostor pažljivo osmišljenom rasvjetom. Ugrađujemo prilagođena rasvjetna rješenja koja povećavaju produktivnost u uredu, stvaraju premium ugođaj u trgovini ili dodaju toplinu vašem dnevnom boravku, uz minimalnu potrošnju energije.",
-        "features": ["Ugradnja LED tračne rasvjete", "Vanjska i pejzažna rasvjeta", "Automatizirani sustavi prigušivanja", "Montaža lustera i stropnih svjetiljki"]
+        "features": [
+          "Ugradnja LED tračne rasvjete",
+          "Vanjska i pejzažna rasvjeta",
+          "Automatizirani sustavi prigušivanja",
+          "Montaža lustera i stropnih svjetiljki"
+        ]
       },
       {
         "title": "Pametni dom",
         "description": "Upravljanje pametnim kućama, integracija rasvjete, klimatizacije i sigurnosnih sustava.",
         "longDescription": "Uvedite svoju nekretninu u budućnost. Integriramo pametne prekidače, automatizirane rolete, digitalne termostate i sigurnosne kamere u jedinstven sustav kojim možete upravljati putem pametnog telefona s bilo kojeg mjesta.",
-        "features": ["Pametna rasvjeta i klima uređaji", "Integracija video portafona", "Automatizacija roleta i sjenila", "Upravljanje glasovnim naredbama"]
+        "features": [
+          "Pametna rasvjeta i klima uređaji",
+          "Integracija video portafona",
+          "Automatizacija roleta i sjenila",
+          "Upravljanje glasovnim naredbama"
+        ]
       },
       {
         "title": "Održavanje",
         "description": "Preventivni pregledi i redovito održavanje za sprječavanje neočekivanih kvarova.",
         "longDescription": "Prevencija je uvijek isplativija od popravka. Nudimo sveobuhvatne ugovore o redovitom održavanju za stambene zgrade i poslovne objekte, osiguravajući da svaki strujni krug radi sigurno i bez opterećenja.",
-        "features": ["Termovizijska ispitivanja", "Ispitivanje opterećenja osigurača", "Izdavanje sigurnosnih atesta", "Ugovori s prioritetnim izlaskom"]
+        "features": [
+          "Termovizijska ispitivanja",
+          "Ispitivanje opterećenja osigurača",
+          "Izdavanje sigurnosnih atesta",
+          "Ugovori s prioritetnim izlaskom"
+        ]
       }
     ]
   },
@@ -109,13 +139,13 @@
     "back": "Povratak na projekte",
     "items": [
       {
-        "title": "Zamjena instalacija u povijesnom stanu",
-        "problem": "Stare aluminijske instalacije uzrokovale su česte kratke spojeve.",
-        "solution": "Kompletna izmjena dotrajalih vodova bez oštećenja povijesnih štukatura.",
-        "result": "100% stabilno napajanje uz integriranu pametnu rasvjetu.",
-        "challengeDetail": "Zgrada iz kasnog 19. stoljeća predstavljala je velik rizik zbog dotrajalih i nesigurnih aluminijskih kablova. Klijent je često ostajao bez struje uz stalne padove napona. Najveći izazov bila je kompletna zamjena strujnih vodova bez oštećenja vrijednih povijesnih ukrasa na zidovima i stropovima.",
-        "solutionDetail": "Za ovaj projekt angažirali smo stručan tim s iskustvom rada u konzervatorskim posredima. Uz pažljivo planiranje i neinvazivne metode, osmislili smo potpuno novu mrežu bakrenih kablova. Kablove smo provlačili iza postojećih lajsni i koristili tehnike mikro-kanaliranja, pazeći na svaki detalj. Također je ugrađen moderan razvodni ormar s prenaponskom zaštitom.",
-        "resultDetail": "Stan sada ima siguran i potpuno stabilan dotok električne energije. Ugradili smo i sustav pametne rasvjete, kojim klijent lako upravlja putem pametnog telefona, čime smo spojili povijesnu eleganciju i modernu tehnologiju bez ikakve štete za interijer."
+        "title": "Obnova elektroinstalacija u stanu u starogradskoj jezgri",
+        "problem": "Dotrajale instalacije uzrokovale su česte kvarove, nestanke struje i padove napona.",
+        "solution": "Potpuna zamjena starih vodova uz očuvanje originalnih detalja interijera.",
+        "result": "Sigurno i stabilno napajanje uz modernu rasvjetu i veću energetsku učinkovitost.",
+        "challengeDetail": "Stan smješten u starogradskoj jezgri nalazio se u zgradi iz kasnog 19. stoljeća s vrlo starim i nesigurnim instalacijama. Česti kvarovi i nestanci struje predstavljali su svakodnevni problem za vlasnika. Poseban izazov bio je izvesti kompletnu obnovu bez narušavanja originalnih ukrasa, štukatura i karaktera prostora.",
+        "solutionDetail": "Projekt smo izveli uz pažljivo planiranje i metode prilagođene radu u starijim objektima. Zamijenili smo kompletnu mrežu dotrajalih vodova novim bakrenim instalacijama, a kablove provukli diskretno iza postojećih lajsni i kroz minimalne otvore kako bi zidovi i stropovi ostali očuvani. Ugrađen je i novi razvodni ormar s modernom zaštitom i pripremom za pametne sustave.",
+        "resultDetail": "Stan danas ima potpuno pouzdano i sigurno napajanje bez padova napona i iznenadnih kvarova. Uz novu rasvjetu i mogućnost upravljanja dijelom sustava putem mobitela, prostor je zadržao svoj izvorni šarm, ali sada funkcionira po modernim standardima."
       },
       {
         "title": "Rasvjeta prodajnog salona",
@@ -216,7 +246,12 @@
   "footer": {
     "description": "Profesionalne i sigurne elektroinstalacije na području Zagreba i okolice za stambene i poslovne prostore.",
     "servicesHeading": "Naše usluge",
-    "services": ["Hitni popravci", "Adaptacije i instalacije", "Pametne kuće", "Održavanje zgrada"],
+    "services": [
+      "Hitni popravci",
+      "Adaptacije i instalacije",
+      "Pametne kuće",
+      "Održavanje zgrada"
+    ],
     "contactHeading": "Kontaktirajte nas",
     "address": "Strigovačka ulica 9, Zagreb",
     "area": "Grad Zagreb i okolica",
@@ -230,9 +265,15 @@
     "heading": "Vrhunski elektroinstalateri",
     "description": "Elektro Light je rastuća tvrtka iz Zagreba sa stručnim iskustvom prepoznata po preciznom izvođenju složenijih instalacija, brzoj odgovornosti prema svakom klijentu i apsolutnoj sigurnosti u odrađenom poslu.",
     "stats": [
-      { "label": "Godina iskustva" },
-      { "label": "Odrađenih poslova" },
-      { "label": "Hitnih intervencija" }
+      {
+        "label": "Godina iskustva"
+      },
+      {
+        "label": "Odrađenih poslova"
+      },
+      {
+        "label": "Hitnih intervencija"
+      }
     ]
   }
 }

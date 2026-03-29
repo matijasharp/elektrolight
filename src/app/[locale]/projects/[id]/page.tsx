@@ -6,15 +6,24 @@ import ProjectDetailsClient from "./ProjectDetailsClient";
 
 export function generateStaticParams() {
     return [
-        { locale: "en", id: "0" },
-        { locale: "en", id: "1" },
-        { locale: "en", id: "2" },
         { locale: "hr", id: "0" },
         { locale: "hr", id: "1" },
         { locale: "hr", id: "2" },
+        { locale: "hr", id: "3" },
+        { locale: "hr", id: "4" },
+        { locale: "hr", id: "5" },
+        { locale: "en", id: "0" },
+        { locale: "en", id: "1" },
+        { locale: "en", id: "2" },
+        { locale: "en", id: "3" },
+        { locale: "en", id: "4" },
+        { locale: "en", id: "5" },
         { locale: "de", id: "0" },
         { locale: "de", id: "1" },
-        { locale: "de", id: "2" }
+        { locale: "de", id: "2" },
+        { locale: "de", id: "3" },
+        { locale: "de", id: "4" },
+        { locale: "de", id: "5" }
     ];
 }
 
@@ -25,7 +34,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ locale
     // Ensure id is valid
     const projectId = parseInt(resolvedParams.id, 10);
 
-    if (isNaN(projectId) || projectId < 0 || projectId >= 3) {
+    if (isNaN(projectId) || projectId < 0 || projectId >= 6) {
         return (
             <main style={{ position: "relative", minHeight: "100vh", display: 'flex', flexDirection: 'column' }}>
                 <Navigation />

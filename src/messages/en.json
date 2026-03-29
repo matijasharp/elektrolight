@@ -38,37 +38,67 @@
         "title": "Apartments & Houses",
         "description": "Complete residential wiring, panel upgrades, and safety inspections.",
         "longDescription": "Whether you are building a new home, renovating an apartment, or just need to fix a stubborn outlet, our residential services cover everything from the main breaker panel to the final switch. We guarantee a clean workspace and strict adherence to safety codes.",
-        "features": ["Full home rewiring (copper)", "Smart breaker panel upgrades", "Socket & switch installation", "Safety diagnostics & grounding"]
+        "features": [
+          "Full home rewiring (copper)",
+          "Smart breaker panel upgrades",
+          "Socket & switch installation",
+          "Safety diagnostics & grounding"
+        ]
       },
       {
         "title": "Business Spaces",
         "description": "Commercial electrical systems, networking, and high-capacity power solutions.",
         "longDescription": "We understand that downtime costs money. Our commercial team specializes in robust, scalable power grids capable of supporting heavy machinery, server rooms, and retail lighting systems without interruption.",
-        "features": ["Three-phase power installation", "Office network cabling (Cat6/Fiber)", "Emergency backup generators", "Commercial lighting & signage"]
+        "features": [
+          "Three-phase power installation",
+          "Office network cabling (Cat6/Fiber)",
+          "Emergency backup generators",
+          "Commercial lighting & signage"
+        ]
       },
       {
         "title": "Emergency Repairs",
         "description": "24/7 fast response for power outages, short circuits, and critical failures.",
         "longDescription": "Electrical emergencies require immediate, professional attention. Our rapid-response unit is available 24 hours a day, 7 days a week across Zagreb and the surrounding area. We prioritize safety and swift restoration of power.",
-        "features": ["24/7 rapid response unit", "Short circuit isolation", "Burnt wire replacement", "Immediate hazard neutralization"]
+        "features": [
+          "24/7 rapid response unit",
+          "Short circuit isolation",
+          "Burnt wire replacement",
+          "Immediate hazard neutralization"
+        ]
       },
       {
         "title": "Lighting Installs",
         "description": "Custom ambient, exterior, and energy-efficient LED lighting designs.",
         "longDescription": "Transform your space with carefully planned illumination. We install custom lighting solutions that enhance productivity in the office, create a premium atmosphere in retail, or add warmth to your living room, all while minimizing energy costs.",
-        "features": ["Custom LED track lighting", "Outdoor & landscape illumination", "Automated diming systems", "Chandelier & fixture mounting"]
+        "features": [
+          "Custom LED track lighting",
+          "Outdoor & landscape illumination",
+          "Automated diming systems",
+          "Chandelier & fixture mounting"
+        ]
       },
       {
         "title": "Smart Home Upgrades",
         "description": "Integration of intelligent climate, security, and automated lighting controls.",
         "longDescription": "Bring your property into the future. We integrate smart switches, automated blinds, digital thermostats, and security cameras into a single, cohesive network you can control directly from your smartphone, anywhere in the world.",
-        "features": ["Smart lighting & climate control", "Video doorbell integration", "Automated window blinds", "Voice assistant compatibility"]
+        "features": [
+          "Smart lighting & climate control",
+          "Video doorbell integration",
+          "Automated window blinds",
+          "Voice assistant compatibility"
+        ]
       },
       {
         "title": "Maintenance",
         "description": "Preventative checkups and long-term care to prevent unexpected downtime.",
         "longDescription": "Prevention is always cheaper than a cure. We offer comprehensive quarterly and annual maintenance contracts for residential buildings and corporate offices, ensuring every circuit operates safely within its designed limits.",
-        "features": ["Thermal imaging inspections", "Breaker load testing", "Safety compliance certification", "Priority response contracts"]
+        "features": [
+          "Thermal imaging inspections",
+          "Breaker load testing",
+          "Safety compliance certification",
+          "Priority response contracts"
+        ]
       }
     ]
   },
@@ -216,7 +246,12 @@
   "footer": {
     "description": "Premium electrical services based in Zagreb, Croatia. Professional, safe, and clean execution for residential and commercial spaces.",
     "servicesHeading": "Services",
-    "services": ["Emergency Repairs", "Installations", "Smart Home Setup", "Maintenance"],
+    "services": [
+      "Emergency Repairs",
+      "Installations",
+      "Smart Home Setup",
+      "Maintenance"
+    ],
     "contactHeading": "Contact",
     "address": "Strigovačka ulica 9, Zagreb",
     "area": "Zagreb & Surrounding Area",
@@ -230,9 +265,15 @@
     "heading": "Powering Progress",
     "description": "Elektro Light is Zagreb's premier electrical business, delivering cutting-edge solutions for commercial and residential spaces. We operate beyond borders, bringing precision, safety, and innovation wherever lighting and power are needed.",
     "stats": [
-      { "label": "Years Experience" },
-      { "label": "Projects Completed" },
-      { "label": "Emergency Support" }
+      {
+        "label": "Years Experience"
+      },
+      {
+        "label": "Projects Completed"
+      },
+      {
+        "label": "Emergency Support"
+      }
     ]
   }
 }

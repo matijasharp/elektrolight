@@ -12,12 +12,18 @@ import AmbientGlow from "./AmbientGlow";
 gsap.registerPlugin(ScrollTrigger);
 
 const projectImages = [
-    "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+    "/assets/projects/elektrolight-obnova-stana-u-staroj-gradskoj-jezgri.png",
+    "/assets/projects/elektrolight-prodajni-salon-elektricarski-radovi.png",
+    "/assets/projects/elektrolight-it-office-project.png",
 ];
 
-export default function Projects() {
+interface ProjectsProps {
+    images?: string[];
+}
+
+export default function Projects({ images }: ProjectsProps) {
+    // Force using local project images instead of Google Sheets urls for the base cards
+    const displayImages = projectImages.slice(0, 3);
     const t = useTranslations("projects");
     const containerRef = useRef<HTMLElement>(null);
 
@@ -53,25 +59,28 @@ export default function Projects() {
                 </div>
 
                 <div className={styles.grid}>
-                    {projectImages.map((image, idx) => (
-                        <div key={idx} className={`project-card ${styles.card} glass-panel`}>
-                            <div className={styles.imageContainer}>
-                                <img src={image} alt={t(`items.${idx}.title`)} className={styles.image} />
-                                <div className={styles.imageOverlay}></div>
-                            </div>
-                            <div className={styles.content}>
-                                <h3 className={styles.title}>{t(`items.${idx}.title`)}</h3>
-                                <div className={styles.details}>
-                                    <p><strong>{t("problemLabel")}</strong> {t(`items.${idx}.problem`)}</p>
-                                    <p><strong>{t("solutionLabel")}</strong> {t(`items.${idx}.solution`)}</p>
-                                    <p className={styles.result}><strong>{t("resultLabel")}</strong> {t(`items.${idx}.result`)}</p>
+                    {[0, 1, 2].map((idx) => {
+                        const image = displayImages[idx] || projectImages[idx] || projectImages[0];
+                        return (
+                            <div key={idx} className={`project-card ${styles.card} glass-panel`}>
+                                <div className={styles.imageContainer}>
+                                    <img src={image} alt={t(`items.${idx}.title`)} className={styles.image} />
+                                    <div className={styles.imageOverlay}></div>
                                 </div>
-                                <Link href={`/projects/${idx}`} className={styles.viewBtn}>
-                                    {t("viewDetails")} <ArrowRight size={16} />
-                                </Link>
+                                <div className={styles.content}>
+                                    <h3 className={styles.title}>{t(`items.${idx}.title`)}</h3>
+                                    <div className={styles.details}>
+                                        <p><strong>{t("problemLabel")}</strong> {t(`items.${idx}.problem`)}</p>
+                                        <p><strong>{t("solutionLabel")}</strong> {t(`items.${idx}.solution`)}</p>
+                                        <p className={styles.result}><strong>{t("resultLabel")}</strong> {t(`items.${idx}.result`)}</p>
+                                    </div>
+                                    <Link href={`/projects/${idx}`} className={styles.viewBtn}>
+                                        {t("viewDetails")} <ArrowRight size={16} />
+                                    </Link>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        );
+                    })}
                 </div>
             </div>
         </section>

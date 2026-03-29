@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { Link, usePathname } from "@/i18n/routing";
+import { Link, usePathname, useRouter } from "@/i18n/routing";
 import styles from "./Navigation.module.css";
 import { useParams } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
@@ -26,9 +26,11 @@ export default function Navigation() {
     const t = useTranslations("nav");
     const locale = useLocale();
     const pathname = usePathname();
+    const router = useRouter();
     const params = useParams();
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [langMenuOpen, setLangMenuOpen] = useState(false);
 
     const overlayRef = useRef<HTMLDivElement>(null);
     const accentLineRef = useRef<HTMLDivElement>(null);
@@ -136,43 +138,65 @@ export default function Navigation() {
         setIsMenuOpen(false);
     }
 
-    function handleLinkClick(href: string) {
-        closeMenu();
-        // Allow state update + animation to start before scrolling
-        setTimeout(() => {
-            const target = document.querySelector(href);
-            if (target) {
-                target.scrollIntoView({ behavior: "smooth" });
-            }
-        }, 50);
+    function handleLinkClick(href: string, e?: React.MouseEvent) {
+        if (pathname === '/' || pathname === '') {
+            e?.preventDefault();
+            closeMenu();
+            // Allow state update + animation to start before scrolling
+            setTimeout(() => {
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: "smooth" });
+                }
+            }, 50);
+        } else {
+            // Not on homepage: let normal Link navigation occur, just close menu
+            closeMenu();
+            // To ensure smooth page transition + scroll when next page loads, 
+            // the Next.js router natively handles hash links.
+        }
     }
 
     return (
         <>
             <header className={styles.navContainer}>
-                <div className={styles.logoGroup}>
+                <Link href="/" className={styles.logoGroup}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src="/elektrolight transparent logo.png" alt="ElektroLight" className={styles.logoIcon} />
                     <span className={styles.logoText}>ElektroLight</span>
-                </div>
+                </Link>
 
                 <div className={styles.actionGroup}>
                     <div className={styles.langSwitcher}>
-                        {locales.map(({ code, flag }) => (
-                            <Link
-                                key={code}
-                                href={
-                                    (Object.keys(params).length > 0
-                                        ? { pathname: pathname as any, params: params as any }
-                                        : pathname) as any
-                                }
-                                locale={code}
-                                className={`${styles.langBtn} ${locale === code ? styles.langActive : ""}`}
-                                aria-label={code.toUpperCase()}
-                            >
-                                {flag}
-                            </Link>
-                        ))}
+                        <div 
+                            className={styles.activeLangWrap}
+                            onClick={() => setLangMenuOpen(!langMenuOpen)}
+                            onMouseEnter={() => setLangMenuOpen(true)}
+                            onMouseLeave={() => setLangMenuOpen(false)}
+                        >
+                            <span className={`${styles.langBtn} ${styles.langActive}`}>
+                                {locales.find((l) => l.code === locale)?.flag}
+                            </span>
+                            
+                            <div className={`${styles.langDropdownContent} ${langMenuOpen ? styles.langDropdownOpen : ""}`}>
+                                {locales.filter(l => l.code !== locale).map(({ code, flag }) => (
+                                    <Link
+                                        key={code}
+                                        href={
+                                            (Object.keys(params).length > 0
+                                                ? { pathname: pathname as any, params: params as any }
+                                                : pathname) as any
+                                        }
+                                        locale={code}
+                                        className={styles.langBtn}
+                                        aria-label={code.toUpperCase()}
+                                        onClick={() => setLangMenuOpen(false)}
+                                    >
+                                        {flag}
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
                     </div>
 
                     <div className={styles.info}>
@@ -200,18 +224,16 @@ export default function Navigation() {
 
                 <nav className={styles.menuLinks}>
                     {navLinks.map(({ key, href }, i) => (
-                        <a
+                        <Link
                             key={key}
-                            ref={(el) => { linkRefs.current[i] = el; }}
-                            href={href}
+                            href={`/${href}` as any}
                             className={styles.menuLink}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                handleLinkClick(href);
-                            }}
+                            onClick={(e) => handleLinkClick(href, e)}
                         >
-                            {t(`links.${key}`)}
-                        </a>
+                            <div ref={(el) => { (linkRefs.current as any)[i] = el; }}>
+                                {t(`links.${key}`)}
+                            </div>
+                        </Link>
                     ))}
                 </nav>
 
@@ -224,22 +246,36 @@ export default function Navigation() {
                         <span className={styles.hoursText}>{t("service24")}</span>
                     </div>
                     <div className={styles.menuLangSwitcher}>
-                        {locales.map(({ code, flag }) => (
-                            <Link
-                                key={code}
-                                href={
-                                    (Object.keys(params).length > 0
-                                        ? { pathname: pathname as any, params: params as any }
-                                        : pathname) as any
-                                }
-                                locale={code}
-                                className={`${styles.langBtn} ${locale === code ? styles.langActive : ""}`}
-                                aria-label={code.toUpperCase()}
-                                onClick={closeMenu}
-                            >
-                                {flag}
-                            </Link>
-                        ))}
+                        <div 
+                            className={styles.activeLangWrap}
+                            onClick={() => setLangMenuOpen(!langMenuOpen)}
+                        >
+                            <span className={`${styles.langBtn} ${styles.langActive}`}>
+                                {locales.find((l) => l.code === locale)?.flag}
+                            </span>
+                            
+                            <div className={`${styles.langDropdownContent} ${langMenuOpen ? styles.langDropdownOpen : ""}`}>
+                                {locales.filter(l => l.code !== locale).map(({ code, flag }) => (
+                                    <Link
+                                        key={code}
+                                        href={
+                                            (Object.keys(params).length > 0
+                                                ? { pathname: pathname as any, params: params as any }
+                                                : pathname) as any
+                                        }
+                                        locale={code}
+                                        className={styles.langBtn}
+                                        aria-label={code.toUpperCase()}
+                                        onClick={() => {
+                                            setLangMenuOpen(false);
+                                            closeMenu();
+                                        }}
+                                    >
+                                        {flag}
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

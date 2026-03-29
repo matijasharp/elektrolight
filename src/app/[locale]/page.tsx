@@ -9,8 +9,13 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { fetchProjectImages } from "@/lib/googleSheets";
 
-export default function Home() {
+export const revalidate = 60;
+
+export default async function Home() {
+    const projectImages = await fetchProjectImages();
+
     return (
         <main style={{ position: "relative", minHeight: "100vh" }}>
             <Navigation />
@@ -21,7 +26,7 @@ export default function Home() {
                 <TrustStrip />
                 <Services />
                 <Process />
-                <Projects />
+                <Projects images={projectImages} />
                 <Testimonials />
                 <FAQ />
                 <Contact />

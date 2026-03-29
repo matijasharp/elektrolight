@@ -4,9 +4,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { blogPosts, getPostBySlug, getCategoryLabel } from "@/data/blog";
+import { blogPosts, getCategoryLabel } from "@/data/blog";
+import { fetchBlogPosts } from "@/lib/googleSheets";
 import type { BlogSection } from "@/data/blog";
 import styles from "./BlogPost.module.css";
+
+export const revalidate = 60;
 
 type Locale = "hr" | "en" | "de";
 
@@ -18,8 +21,11 @@ const ui: Record<Locale, { back: string; minRead: string; share: string }> = {
 
 export async function generateStaticParams() {
     const locales: Locale[] = ["hr", "en", "de"];
+    const sheetsPosts = await fetchBlogPosts();
+    const allPosts = sheetsPosts.length > 0 ? sheetsPosts : blogPosts;
+
     return locales.flatMap((locale) =>
-        blogPosts.map((post) => ({ locale, slug: post.slug }))
+        allPosts.map((post) => ({ locale, slug: post.slug }))
     );
 }
 
@@ -29,7 +35,9 @@ export async function generateMetadata({
     params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
     const { locale, slug } = await params;
-    const post = getPostBySlug(slug);
+    const sheetsPosts = await fetchBlogPosts();
+    const allPosts = sheetsPosts.length > 0 ? sheetsPosts : blogPosts;
+    const post = allPosts.find((p) => p.slug === slug);
     if (!post) return {};
 
     const l = (locale as Locale) ?? "hr";
@@ -94,7 +102,9 @@ export default async function BlogPostPage({
     const { locale, slug } = await params;
     setRequestLocale(locale);
 
-    const post = getPostBySlug(slug);
+    const sheetsPosts = await fetchBlogPosts();
+    const allPosts = sheetsPosts.length > 0 ? sheetsPosts : blogPosts;
+    const post = allPosts.find((p) => p.slug === slug);
     if (!post) notFound();
 
     const l = (locale as Locale) ?? "hr";
