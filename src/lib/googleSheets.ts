@@ -4,7 +4,11 @@ import { BlogPost, BlogSection } from "@/data/blog";
 const SCOPES = ["https://www.googleapis.com/auth/spreadsheets"];
 
 async function getSheetsInstance() {
-    const privateKey = process.env.GOOGLE_PRIVATE_KEY?.split(String.raw`\n`).join("\n");
+    const rawKey = process.env.GOOGLE_PRIVATE_KEY ?? "";
+    // Strip surrounding quotes (common Netlify paste artifact) then normalise \n → newline
+    const privateKey = rawKey
+        .replace(/^["']|["']$/g, "")
+        .replace(/\\n/g, "\n");
     
     // The debug log has been removed to prevent potential sensitive info disclosure in logs
 
