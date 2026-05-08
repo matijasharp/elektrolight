@@ -8,6 +8,7 @@ import Projects from "@/components/Projects";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
+import ContactModal from "@/components/ContactModal";
 import Footer from "@/components/Footer";
 import { fetchProjectImages } from "@/lib/googleSheets";
 
@@ -18,6 +19,7 @@ export default async function Home() {
 
     return (
         <main style={{ position: "relative", minHeight: "100vh" }}>
+            <ContactModal />
             <Navigation />
             <EnergyPath />
 

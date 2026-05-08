@@ -94,6 +94,36 @@
     box-shadow: 0 4px 14px rgba(31, 163, 255, 0.3);
 }
 
+/* ── WhatsApp icon button (header) ────────────────────── */
+.whatsappBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    background: var(--surface2);
+    border: 1px solid var(--stroke);
+    color: #25D366;
+    transition: background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+    flex-shrink: 0;
+    /* visible on all screen sizes */
+    order: -1;
+}
+
+@media (min-width: 768px) {
+    .whatsappBtn {
+        order: 0;
+    }
+}
+
+.whatsappBtn:hover {
+    background: #25D366;
+    color: #fff;
+    border-color: #25D366;
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+}
+
 /* ── Hamburger ─────────────────────────────────────────── */
 .hamburger {
     display: flex;
@@ -232,6 +262,35 @@
     background: var(--accent);
     box-shadow: 0 0 30px rgba(60, 242, 255, 0.35);
     color: var(--bg);
+}
+
+.menuCallRow {
+    display: flex;
+    gap: 0.5rem;
+    align-items: stretch;
+}
+
+.menuCallRow .menuPhoneBtn {
+    flex: 1;
+}
+
+.menuWhatsappBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(37, 211, 102, 0.12);
+    border: 1px solid rgba(37, 211, 102, 0.3);
+    color: #25D366;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menuWhatsappBtn:hover {
+    background: #25D366;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(37, 211, 102, 0.35);
 }
 
 .menuEmergency {

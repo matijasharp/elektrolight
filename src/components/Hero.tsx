@@ -46,9 +46,9 @@ export default function Hero() {
                 <p className={`hero-text ${styles.subtitle}`}>{t("subheadline")}</p>
 
                 <div className={`hero-text ${styles.ctaGroup}`}>
-                    <button 
+                    <button
                         className={`hero-text ${styles.primaryCta}`}
-                        onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                        onClick={() => window.dispatchEvent(new CustomEvent("open-contact-modal"))}
                     >
                         {t("ctaPrimary")}
                     </button>
