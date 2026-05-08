@@ -268,22 +268,6 @@ export default function Contact() {
                             )}
                         </div>
 
-                        {/* Emergency toggle */}
-                        <div className={styles.toggleGroup}>
-                            <label className={styles.switch}>
-                                <input
-                                    type="checkbox"
-                                    checked={formData.emergency}
-                                    onChange={(e) =>
-                                        setFormData((prev) => ({ ...prev, emergency: e.target.checked }))
-                                    }
-                                    disabled={isDisabled}
-                                />
-                                <span className={styles.slider}></span>
-                            </label>
-                            <span className={styles.urgentText}>{t("emergency")}</span>
-                        </div>
-
                         {/* Error banner */}
                         {submitStatus === "error" && (
                             <p className={styles.errorBanner}>{t("errorMessage")}</p>

@@ -199,10 +199,6 @@ export default function Navigation() {
                         </div>
                     </div>
 
-                    <div className={styles.info}>
-                        <span className={styles.emergencyText}>{t("emergency")}</span>
-                        <span className={styles.hoursText}>{t("service24")}</span>
-                    </div>
                     <a href="tel:+385998005151" className={styles.ctaButton}>+385 99 800 5151</a>
 
                     <button
@@ -241,10 +237,6 @@ export default function Navigation() {
                     <a href="tel:+385998005151" className={styles.menuPhoneBtn} onClick={closeMenu}>
                         +385 99 800 5151
                     </a>
-                    <div className={styles.menuEmergency}>
-                        <span className={styles.emergencyText}>{t("emergency")}</span>
-                        <span className={styles.hoursText}>{t("service24")}</span>
-                    </div>
                     <div className={styles.menuLangSwitcher}>
                         <div 
                             className={styles.activeLangWrap}

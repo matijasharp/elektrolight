@@ -77,7 +77,7 @@ export async function POST(request: NextRequest) {
 
         const { error: resendError } = await resend.emails.send({
             from: process.env.RESEND_FROM_EMAIL!,
-            to: [process.env.OWNER_EMAIL!],
+            to: [process.env.OWNER_EMAIL!, "ivandugorepec1@gmail.com"],
             subject,
             html: buildOwnerEmailHtml(formData),
             text: buildOwnerEmailText(formData),

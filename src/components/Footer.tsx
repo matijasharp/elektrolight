@@ -5,7 +5,7 @@ import { Link } from "@/i18n/routing";
 import styles from "./Footer.module.css";
 
 // Maps footer service items (index 0-3) to actual service page IDs
-const FOOTER_SERVICE_IDS = [2, 0, 4, 5];
+const FOOTER_SERVICE_IDS = [0, 3, 4, 5];
 
 export default function Footer() {
     const t = useTranslations("footer");

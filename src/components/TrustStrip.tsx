@@ -50,7 +50,6 @@ export default function TrustStrip() {
         { icon: ShieldCheck, key: "licensed" },
         { icon: Settings, key: "warranty" },
         { icon: FileText, key: "invoice" },
-        { icon: Clock, key: "emergency" },
         { icon: MapPin, key: "area" },
     ] as const;
 

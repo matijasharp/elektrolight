@@ -57,17 +57,6 @@
         ]
       },
       {
-        "title": "Emergency Repairs",
-        "description": "24/7 fast response for power outages, short circuits, and critical failures.",
-        "longDescription": "Electrical emergencies require immediate, professional attention. Our rapid-response unit is available 24 hours a day, 7 days a week across Zagreb and the surrounding area. We prioritize safety and swift restoration of power.",
-        "features": [
-          "24/7 rapid response unit",
-          "Short circuit isolation",
-          "Burnt wire replacement",
-          "Immediate hazard neutralization"
-        ]
-      },
-      {
         "title": "Lighting Installs",
         "description": "Custom ambient, exterior, and energy-efficient LED lighting designs.",
         "longDescription": "Transform your space with carefully planned illumination. We install custom lighting solutions that enhance productivity in the office, create a premium atmosphere in retail, or add warmth to your living room, all while minimizing energy costs.",
@@ -98,6 +87,17 @@
           "Breaker load testing",
           "Safety compliance certification",
           "Priority response contracts"
+        ]
+      },
+      {
+        "title": "Solar Panels",
+        "description": "Installation and wiring of photovoltaic solar systems for homes and businesses.",
+        "longDescription": "Investing in solar energy is one of the smartest steps to reduce electricity bills. We design and install photovoltaic systems on residential and commercial rooftops — from planning and permits to commissioning and grid connection.",
+        "features": [
+          "Rooftop photovoltaic panel installation",
+          "Grid connection (on-grid systems)",
+          "Energy storage systems (batteries)",
+          "Monitoring and smart metering"
         ]
       }
     ]
@@ -197,10 +197,6 @@
         "answer": "We offer transparent, upfront pricing. After a brief assessment (often via video call or a quick site visit), we provide a fixed quote for the entire job. No hidden fees or surprise hourly charges."
       },
       {
-        "question": "Do you offer same-day emergency services?",
-        "answer": "Yes. Our emergency unit operates 24/7 across Zagreb and surrounding areas. For critical issues like total power loss, we aim to be on-site within 45 minutes."
-      },
-      {
         "question": "Do you issue official invoices?",
         "answer": "Absolutely. We are a registered company. Every job is completed with an officially stamped invoice and documentation for your records."
       },
@@ -210,13 +206,13 @@
       },
       {
         "question": "Do you work on weekends?",
-        "answer": "Yes, we accept scheduled project work on Saturdays by appointment, and our emergency response team is available all weekend."
+        "answer": "Yes, we accept scheduled project work on Saturdays by appointment."
       }
     ]
   },
   "contact": {
-    "heading": "Electrical emergency or new project?",
-    "description": "Get a quick estimate or request immediate assistance in Zagreb and the surrounding area.",
+    "heading": "Have a new project or need a quote?",
+    "description": "Request a no-obligation estimate or describe what you need.",
     "callNow": "Call Now",
     "whatsapp": "WhatsApp Us",
     "formTitle": "Request a Quote",
@@ -247,10 +243,10 @@
     "description": "Premium electrical services based in Zagreb, Croatia. Professional, safe, and clean execution for residential and commercial spaces.",
     "servicesHeading": "Services",
     "services": [
-      "Emergency Repairs",
       "Installations",
       "Smart Home Setup",
-      "Maintenance"
+      "Maintenance",
+      "Solar Panel Installation"
     ],
     "contactHeading": "Contact",
     "address": "Strigovačka ulica 9, Zagreb",
@@ -272,7 +268,7 @@
         "label": "Projects Completed"
       },
       {
-        "label": "Emergency Support"
+        "label": "Client Rating"
       }
     ]
   }

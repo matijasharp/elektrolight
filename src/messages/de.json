@@ -57,17 +57,6 @@
         ]
       },
       {
-        "title": "Notfallreparaturen",
-        "description": "24/7 schnelle Reaktion bei Stromausfällen, Kurzschlüssen und kritischen Ausfällen.",
-        "longDescription": "Elektrische Notfälle erfordern sofortige, professionelle Aufmerksamkeit. Unsere Schnelleingreiftruppe ist 24 Stunden am Tag, 7 Tage die Woche in ganz Zagreb und Umgebung erreichbar. Wir legen großen Wert auf Sicherheit und die schnelle Wiederherstellung der Stromversorgung.",
-        "features": [
-          "24/7 Schnelleinsatzgruppe",
-          "Isolierung von Kurzschlüssen",
-          "Austausch durchgebrannter Kabel",
-          "Sofortige Gefahrenbeseitigung"
-        ]
-      },
-      {
         "title": "Beleuchtungsinstallation",
         "description": "Individuelle Ambiente-, Außen- und energieeffiziente LED-Beleuchtungslösungen.",
         "longDescription": "Licht ist mehr als nur Helligkeit – es schafft Atmosphäre und Sicherheit. Wir planen und installieren Beleuchtungssysteme, die perfekt auf Ihre Bedürfnisse zugeschnitten sind, von stimmungsvoller Innenbeleuchtung bis hin zu robuster Außenbeleuchtung und energieeffizienten LED-Lösungen.",
@@ -98,6 +87,17 @@
           "Belastungstest von Schutzschaltern",
           "Sicherheitskonformitätsprüfung",
           "Verträge mit priorisierter Reaktionszeit"
+        ]
+      },
+      {
+        "title": "Solaranlagen",
+        "description": "Installation und Verkabelung von Photovoltaik-Solaranlagen für Heim und Gewerbe.",
+        "longDescription": "Die Investition in Solarenergie ist einer der klügsten Schritte zur Reduzierung der Stromkosten. Wir planen und installieren Photovoltaikanlagen auf Dächern von Wohn- und Gewerbegebäuden — von der Planung und Genehmigung bis zur Inbetriebnahme und Netzanbindung.",
+        "features": [
+          "Installation von Dach-Photovoltaikmodulen",
+          "Netzanschluss (On-Grid-Systeme)",
+          "Energiespeichersysteme (Batterien)",
+          "Überwachungs- und Smart-Metering-Systeme"
         ]
       }
     ]
@@ -197,10 +197,6 @@
         "answer": "Wir bieten transparente Festpreise. Nach einer kurzen Begutachtung (oft per Videoanruf oder einem schnellen Vororttermin) erstellen wir ein Festpreisangebot für den gesamten Auftrag. Keine versteckten Kosten oder überraschende Stundenabrechnung."
       },
       {
-        "question": "Bieten Sie Notfallservice am gleichen Tag an?",
-        "answer": "Ja. Unsere Notfalleinheit ist 24/7 in Zagreb und Umgebung aktiv. Bei kritischen Problemen wie totalem Stromausfall sind wir innerhalb von 45 Minuten vor Ort."
-      },
-      {
         "question": "Stellen Sie offizielle Rechnungen aus?",
         "answer": "Selbstverständlich. Wir sind ein eingetragenes Unternehmen. Jeder Auftrag wird mit einer offiziell gestempelten Rechnung und Dokumentation für Ihre Unterlagen abgeschlossen."
       },
@@ -210,13 +206,13 @@
       },
       {
         "question": "Arbeiten Sie am Wochenende?",
-        "answer": "Ja, wir nehmen samstags geplante Projekte nach Vereinbarung an, und unser Notfallteam ist das gesamte Wochenende verfügbar."
+        "answer": "Ja, wir nehmen samstags geplante Projekte nach Vereinbarung an."
       }
     ]
   },
   "contact": {
-    "heading": "Elektrischer Notfall oder neues Projekt?",
-    "description": "Erhalten Sie schnell einen Kostenvoranschlag oder fordern Sie sofortige Hilfe in Zagreb und Umgebung an.",
+    "heading": "Neues Projekt oder Angebot gewünscht?",
+    "description": "Fordern Sie einen unverbindlichen Kostenvoranschlag an oder beschreiben Sie Ihr Anliegen.",
     "callNow": "Jetzt anrufen",
     "whatsapp": "WhatsApp",
     "formTitle": "Angebot anfordern",
@@ -247,10 +243,10 @@
     "description": "Premium-Elektroinstallationen mit Sitz in Zagreb, Kroatien. Professionelle, sichere und saubere Ausführung für Wohn- und Gewerberäume.",
     "servicesHeading": "Leistungen",
     "services": [
-      "Notfallreparaturen",
       "Installationen",
       "Smart-Home-Einrichtung",
-      "Wartung"
+      "Wartung",
+      "Solaranlageninstallation"
     ],
     "contactHeading": "Kontakt",
     "address": "Strigovačka ulica 9, Zagreb",
@@ -272,7 +268,7 @@
         "label": "Abgeschlossene Projekte"
       },
       {
-        "label": "Notfall-Support"
+        "label": "Kundenbewertung"
       }
     ]
   }

@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { ArrowLeft, CheckCircle2, Home, Briefcase, Wrench, Lightbulb, Smartphone, Settings } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Home, Briefcase, Wrench, Lightbulb, Smartphone, Settings, Sun } from "lucide-react";
 import styles from "./ServiceDetails.module.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -14,15 +14,15 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const icons = [Home, Briefcase, Wrench, Lightbulb, Smartphone, Settings];
+const icons = [Home, Briefcase, Lightbulb, Smartphone, Settings, Sun];
 
 const serviceHeroImages = [
     "/assets/services/elektrolight-elektricarske-usluge-stanovi-i-kuce.jpg",
     "/assets/services/elektrolight-elektricarske-usluge-poslovni-prostori.jpg",
-    "/assets/services/elektrolight-elektricarske-usluge-hitni-popravci.jpg",
     "/assets/services/elektrolight-elektricarske-usluge-montaza-rasvjete.jpg",
     "/assets/services/elektrolight-elektricarske-usluge-pametna-kuca.jpg",
     "/assets/services/elektrolight-elektricarske-usluge-odrzavanje.jpg",
+    "/assets/services/elektrolight-elektricarske-usluge-solarni-paneli.jpg",
 ];
 
 export default function ServiceDetailsClient({ serviceId }: { serviceId: number }) {

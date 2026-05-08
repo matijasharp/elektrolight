@@ -311,10 +311,6 @@ export const blogPosts: BlogPost[] = [
                             "Toplina iz zidova ili utičnica na dodir",
                         ],
                     },
-                    {
-                        type: "callout",
-                        text: "Elektro Light ima dežurnu ekipu za hitne intervencije 24/7 na području Zagreba. Dolazimo unutar sat vremena. Pozovite odmah: +385 91 234 5678",
-                    },
                 ],
             },
             en: {
@@ -329,10 +325,6 @@ export const blogPosts: BlogPost[] = [
                         type: "paragraph",
                         text: "Imagine: it's evening, you're watching a movie, and suddenly — everything goes dark. A fuse has tripped. Or a wire is burning. Panic is natural, but the most important thing is knowing what to do in the first few minutes.",
                     },
-                    {
-                        type: "callout",
-                        text: "Elektro Light has a 24/7 emergency team in the Zagreb area. We arrive within an hour. Call now: +385 91 234 5678",
-                    },
                 ],
             },
             de: {
@@ -346,10 +338,6 @@ export const blogPosts: BlogPost[] = [
                     {
                         type: "paragraph",
                         text: "Stellen Sie sich vor: Es ist Abend, Sie schauen einen Film, und plötzlich — alles dunkel. Eine Sicherung ist rausgeflogen.",
-                    },
-                    {
-                        type: "callout",
-                        text: "Elektro Light hat ein 24/7-Notfallteam in der Region Zagreb. Wir kommen innerhalb einer Stunde. Rufen Sie jetzt an: +385 91 234 5678",
                     },
                 ],
             },

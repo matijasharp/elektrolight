@@ -10,7 +10,7 @@ import { Zap, Shield, CheckCircle } from "lucide-react";
 gsap.registerPlugin(ScrollTrigger);
 
 const statIcons = [Shield, Zap, CheckCircle];
-const statValues = ["10+", "500+", "24/7"];
+const statValues = ["10+", "500+", "5★"];
 
 export default function About() {
     const t = useTranslations("about");

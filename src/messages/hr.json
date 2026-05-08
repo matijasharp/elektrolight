@@ -4,8 +4,8 @@
     "description": "Vrhunske električarske usluge u Zagrebu — brzi, stručni i pouzdani. Licencirani električari, jamstvo, račun i dolazak na vrijeme."
   },
   "nav": {
-    "emergency": "Hitna intervencija? Nazovite odmah",
-    "service24": "Usluga 24/7",
+    "emergency": "",
+    "service24": "",
     "links": {
       "services": "Usluge",
       "process": "Kako radimo",
@@ -57,17 +57,6 @@
         ]
       },
       {
-        "title": "Hitni popravci",
-        "description": "Brzi dolazak 24/7 u slučaju nestanka struje, kratkih spojeva i ostalih hitnih kvarova.",
-        "longDescription": "Električni kvarovi zahtijevaju hitnu i stručnu reakciju. Naš tim za hitne intervencije dostupan je 24 sata dnevno, 7 dana u tjednu na području Zagreba i okolice. Prioritet nam je vaša sigurnost i brza uspostava napajanja.",
-        "features": [
-          "Hitne intervencije 0-24h",
-          "Izolacija kratkih spojeva",
-          "Zamjena izgorjelih instalacija",
-          "Hitno otklanjanje opasnosti"
-        ]
-      },
-      {
         "title": "Montaža rasvjete",
         "description": "Dizajn i ugradnja ambijentalne, vanjske i energetski učinkovite LED rasvjete.",
         "longDescription": "Transformirajte svoj prostor pažljivo osmišljenom rasvjetom. Ugrađujemo prilagođena rasvjetna rješenja koja povećavaju produktivnost u uredu, stvaraju premium ugođaj u trgovini ili dodaju toplinu vašem dnevnom boravku, uz minimalnu potrošnju energije.",
@@ -98,6 +87,17 @@
           "Ispitivanje opterećenja osigurača",
           "Izdavanje sigurnosnih atesta",
           "Ugovori s prioritetnim izlaskom"
+        ]
+      },
+      {
+        "title": "Solarni paneli",
+        "description": "Ugradnja i spajanje solarnih fotonaponskih sustava za dom i poslovne prostore.",
+        "longDescription": "Investicija u solarnu energiju jedan je od najpametnijih koraka za smanjenje troškova električne energije. Projektiramo i ugrađujemo fotonaponske sustave na krovovima stambenih i poslovnih objekata — od planiranja i ishođenja dozvola do puštanja u pogon i priključenja na mrežu.",
+        "features": [
+          "Ugradnja krovnih fotonaponskih panela",
+          "Spajanje na elektromrežu (on-grid)",
+          "Sustavi pohrane energije (baterije)",
+          "Nadzorni sustavi i monitoring"
         ]
       }
     ]
@@ -174,7 +174,7 @@
       {
         "name": "Marko J.",
         "location": "Trešnjevka, Zagreb",
-        "text": "Nevjerojatno brza reakcija u subotu navečer kada nam je otišla faza u kući. Majstor je bio vrlo stručan, pedantan i cijena je bila baš kako smo obavili po dogovoru."
+        "text": "Vrlo zadovoljan uslugom. Električar je stručan, brz i korektan. Radove je odradio uredno i precizno, uz poštivanje dogovora oko vremena i cijene. Sve je funkcioniralo kako treba odmah nakon popravka. Preporučujem bez zadrške."
       },
       {
         "name": "Ana S.",
@@ -197,10 +197,6 @@
         "answer": "Najviše držimo do poštenog i transparentnog odnosa, stoga vam nakon kratkog pregleda dajemo točnu i fiksnu cijenu radova bez ikakvih 'iznenađenja' i skrivenih troškova."
       },
       {
-        "question": "Izlazite li na hitne intervencije?",
-        "answer": "Naravno. Imamo dežurnu ekipu za hitne slučajeve na području Zagreba i šire okolice (0-24h). Na teren uglavnom dolazimo unutar sat vremena."
-      },
-      {
         "question": "Izdajete li račun za radove?",
         "answer": "Da. Mi smo prijavljena tvrtka i za svaku našu uslugu obavezno izdajemo službeni račun sa svim stavkama odrađenog posla."
       },
@@ -210,13 +206,17 @@
       },
       {
         "question": "Radite li subotom i nedjeljom?",
-        "answer": "Nedjeljom i kasno u noć vozimo samo hitne intervencije, dok subotom po dogovoru odrađujemo dogovorene projekte koje zbog buke klijenti ne mogu obavljati ostalim danima."
-      }
+        "answer": "Subotom po dogovoru odrađujemo projekte koje zbog buke klijenti ne mogu obavljati ostalim danima."
+      },
+    {
+      "question": "Da li radite samo sa privatnim osobama ili i sa tvrtkama?",
+      "answer": "Radimo sa svim privatnim i pravnim osobama. Na vaš poziv dolazimo u kuće, stanove, kleti, urede, industrijske hale, garaže, lokale i sve druge lokacije gdje postoji struja i potreba za popravkom."
+    }
     ]
   },
   "contact": {
-    "heading": "Trebate hitnu intervenciju ili imate novi projekt?",
-    "description": "Zatražite neobvezujuću procjenu ili nam javite da vam hitno treba dolazak električara.",
+    "heading": "Imate novi projekt ili trebate procjenu?",
+    "description": "Zatražite neobvezujuću procjenu ili nam opišite što vam je potrebno.",
     "callNow": "Nazovite nas",
     "whatsapp": "Pošaljite poruku na WhatsApp",
     "formTitle": "Zatražite ponudu",
@@ -247,10 +247,11 @@
     "description": "Profesionalne i sigurne elektroinstalacije na području Zagreba i okolice za stambene i poslovne prostore.",
     "servicesHeading": "Naše usluge",
     "services": [
-      "Hitni popravci",
       "Adaptacije i instalacije",
       "Pametne kuće",
-      "Održavanje zgrada"
+      "Održavanje zgrada",
+      "Instalacije solarnih panela",
+      "Instalacije solarnih panela"
     ],
     "contactHeading": "Kontaktirajte nas",
     "address": "Strigovačka ulica 9, Zagreb",
@@ -272,7 +273,7 @@
         "label": "Odrađenih poslova"
       },
       {
-        "label": "Hitnih intervencija"
+        "label": "Ocjena klijenata"
       }
     ]
   }

@@ -6,12 +6,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import styles from "./Services.module.css";
-import { Home, Briefcase, Wrench, Lightbulb, Smartphone, Settings } from "lucide-react";
+import { Home, Briefcase, Lightbulb, Smartphone, Settings, Sun } from "lucide-react";
 import AmbientGlow from "./AmbientGlow";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const icons = [Home, Briefcase, Wrench, Lightbulb, Smartphone, Settings];
+const icons = [Home, Briefcase, Lightbulb, Smartphone, Settings, Sun];
 
 export default function Services() {
     const t = useTranslations("services");

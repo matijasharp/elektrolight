@@ -10,7 +10,7 @@ import AmbientGlow from "./AmbientGlow";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const FAQ_COUNT = 5;
+const FAQ_COUNT = 4;
 
 export default function FAQ() {
     const t = useTranslations("faq");
